@@ -1,43 +1,43 @@
 ---
-title: Hello World
+title: 如何写第一篇hexo博客
 tags: 
 	- hexo
 	- 教程
 categories: 
 	- 教程	
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+在准备写博客之前可阅读一下简单教程
 
-## Quick Start
+## 须知
 
-### Create a new post
+ 本站博客使用hexo搭建，博客相关资源存在 https://github.com/T3Team/T3Team.github.io 上。
 
-``` bash
-$ hexo new "My New Post"
-```
+- hexo分支为默认分支，存放hexo网站资源
+-  master分支存放静态文件
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+### 恢复
 
-### Run server
+重装电脑后，或者在其它电脑上想修改博客：
 
-``` bash
-$ hexo server
-```
+1. 安装 git；
+2. 安装 Nodejs 和 npm；
+3. 使用 `git clone git@github.com:T3Team/T3Team.github.io.git` 将仓库拷贝至本地；
+4. 在文件夹内执行以下命令 `npm install hexo-cli -g`、`npm install`、`npm install hexo-deployer-git`。
 
-More info: [Server](https://hexo.io/docs/server.html)
+### 修改
 
-### Generate static files
+在本地对博客修改（包括修改主题样式、发布新文章等）后：
 
-``` bash
-$ hexo generate
-```
+1. 依次执行 `git add`、`git commit -m ""` 和 `git push origin hexo` 来提交 hexo 网站源文件；
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+2. 执行 `hexo g -d` 生成静态网页部署至 Github 上。
 
-### Deploy to remote sites
+   
 
-``` bash
-$ hexo deploy
-```
+相关参考文章:
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+​            [Hexo官方文档](https://hexo.io/zh-cn/docs/)
+
+​           [Hexo 博客搭建指南](https://github.com/limedroid/HexoLearning)
+
+​           [Hexo博客备份](https://blog.itswincer.com/posts/7efd2818/)           
