@@ -1,5 +1,6 @@
 ---
 title: 如何写第一篇hexo博客
+date: 2018/6/14 17:10:00
 author: TFsky
 tags: 
 	- hexo
@@ -8,6 +9,8 @@ categories:
 	- 教程	
     - hexo 
 ---
+![hello-hexo-header](/images/hello_hexo.jpg)
+
 在准备写博客之前可阅读一下简单教程
 
 ### 须知
