@@ -39,6 +39,39 @@ categories:
 $ hexo new test    //test为文章名 
 ```
 
+.md文件头部会自动生成如下内容,
+- title 文章标题
+- date 文章创建时间
+- author 作者，不填则显示默认值（本博客配置为T3team）
+- tags 标签
+- categories 文章分类
+
+```
+---
+title: test
+date: 2018/6/14 17:10:00
+author: 
+tags: 
+categories: 
+---
+```
+
+本文头部参数如下
+
+```
+---
+title: 如何写第一篇hexo博客
+date: 2018/6/14 17:10:00
+author: TFsky
+tags: 
+	- hexo
+	- 教程
+categories: 
+    - hexo 
+    - 教程
+---
+```
+
 此时会在`source/_posts`目录下生成`test.md`文件，输入些许内容，然后保存.
 
 生成下，看看效果
@@ -55,6 +88,8 @@ $ hexo s
 
 在 **source/_posts/**下新建一个`.md`文件也可
 
+
+
 ### 发布文章
 
 在本地对博客修改（包括修改主题样式、发布新文章等）后：
@@ -62,8 +97,6 @@ $ hexo s
 1. 依次执行 `git add`、`git commit -m "xxxx" (简单的描述下信息)` 和 `git push origin hexo` 来提交 hexo 网站源文件；
 
 2. 执行 `hexo g -d` 生成静态网页部署至 Github 上。
-
-   
 
 ### 相关参考文章:
 
