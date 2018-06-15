@@ -39,9 +39,9 @@ categories:
 $ hexo new test    //test为文章名 
 ```
 
-.md文件头部会自动生成如下内容,
+.md文件头部会自动生成如下内容
 - title 文章标题
-- date 文章创建时间
+- date 文章创建时间
 - author 作者，不填则显示默认值（本博客配置为T3team）
 - tags 标签
 - categories 文章分类
