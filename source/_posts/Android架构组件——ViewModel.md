@@ -1,14 +1,15 @@
 ---
 title: Android架构组件——ViewModel
 date: 2018-07-02 10:16:01
-author: 
+author: dale.liu
 tags:
 categories: android技术文档
 ---
 ### 概述
 Android 官方架构组件在2017年11月份Android官方架构组件正式版发布, 并且 Google 也在 Support Library v26.1.0 以后的版本中内嵌了 Android 官方架构组件中的生命周期组件.
->ViewModel是UI相关数据管理类。但不是数据持有类
 
+### 生命周期
+>ViewModel是UI相关数据管理类。但不是数据持有类
 最为重要的就是ViewModel具有下面的生命周期：
 
 ![Rvm_lf](/images/vm_lf.png)
@@ -20,7 +21,7 @@ Android 官方架构组件在2017年11月份Android官方架构组件正式版�
 
 ![vm_fuc](/images/vm_fuc.png)
 
-**ViewModel是怎么创建的？**
+### ViewModel简析
 ViewModel的基本使用方法，我们在获取ViewModel的时候绝对不能直接使用new关键字去创建，需要使用 ViewModelProviders 去使用系统提供的反射方法去创建我们想要的ViewModel，下面是官方架构组件android.arch.lifecycle包下面的ViewModelProviders工具类用来获取ViewModel:
 
 ``` 
@@ -98,7 +99,7 @@ public class ViewModelProviders {
 }
 
 ```
-**创建使用ViewModel:** 
+#### 创建使用ViewModel
 ```
 //传入对应的上下文 即：数据retain的宿主
 NetDemoViewModel  netDemoViewModel = ViewModelProviders.of(fragment/activity).get(NetDemoViewModel.class);
@@ -107,7 +108,7 @@ NetDemoViewModel  netDemoViewModel = ViewModelProviders.of(fragment/activity).ge
 ViewModel 的存在是依赖 Activity 或者 Fragment的，不管你在什么地方获取ViewModel ，只要你用的是相同的Activity 或者 Fragment，那么获取到的ViewModel将是同一个 (前提是key值是一样的)，所以ViewModel 有数据共享的作用。
 
 
-** 那ViewModel是怎么创建的？**
+#### ViewModel是怎么创建的？
 看上面的获取viewmodel的对象的链式调用的方法可以理解成 分为两步
 ```
 /*****第一步:根据Activity或者Fragment获得ViewModelProvider****/
@@ -287,7 +288,7 @@ public <T extends ViewModel> T get(@NonNull Class<T> modelClass) {
 
 也就是创建一个ViewModelProvider，使用ViewModelProvider内部的全局单例AndroidViewModelFactory来反射创建 ViewModel,并把创建的ViewModel存入传入的ViewModelStore中.
 
-**ViewModel是怎么存储**
+#### ViewModel是怎么存储
 
 ```
 public class ViewModelStore {
@@ -337,14 +338,13 @@ public HolderFragment() {
 ```
 setRetainInstance(boolean) 是Fragment中的一个方法。将这个方法设置为true就可以使当前Fragment在Activity重建时存活下来, 如果不设置或者设置为 false, 当前 Fragment 会在 Activity 重建时同样发生重建, 以至于被新建的对象所替代。 
 在setRetainInstance(boolean)为true的 Fragment （就是HolderFragment）中放一个专门用于存储ViewModel的Map, 这样Map中所有的ViewModel都会幸免于Activity的配置改变导致的重建，让需要创建ViewModel的Activity, Fragment都绑定一个这样的Fragment（就是HolderFragment）, 将ViewModel存放到这个 Fragment 的 Map 中, ViewModel 组件就这样实现了。
-**总结**
-1.ViewModel 以键值对的形式存在Activity或者Fragment的HolderFragment的 
-ViewModelStore的HashMap中。
+### 总结
+**1.ViewModel 以键值对的形式存在Activity或者Fragment的HolderFragment的ViewModelStore的HashMap中。
 2.一个Activity或者Fragment可以有很多个ViewModel。
 3.一个Activity或者Fragment只会有一个HolderFragment。
 4.Activity或者Fragment的HolderFragment会保存在全局单例的HolderFragmentManager的HashMap中，在Activity或者Fragment销毁的时候会移除HashMap中对应的value。
 5.因为ViewModel是以Activity或者Fragment为存在基础，所以ViewModel可以在当前Activity和Fragment中实现数据共享，前提是传入相同的key值。
-所以ViewModel 主要就两个功能
+所以ViewModel 主要就两个功能**
 + 第一个功能可以使 ViewModel 以及 ViewModel 中的数据在屏幕旋转或配置更改引起的 Activity 重建时存活下来, 重建后数据可继续使用。
 + 第二个功能可以帮助开发者轻易实现 Fragment 与 Fragment 之间, Activity 与 Fragment 之间的通讯以及共享数据
 
