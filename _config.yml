@@ -88,3 +88,7 @@ deploy:
   type: git
   repo: git@github.com:T3Team/T3Team.github.io.git
   branch: master
+
+#hexo-admin插件  增加作者名编辑
+metadata:
+  author_id: defaultAuthorId
