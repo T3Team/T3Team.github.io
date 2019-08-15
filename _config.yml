@@ -92,3 +92,9 @@ deploy:
 #hexo-admin插件  增加作者名编辑
 metadata:
   author_id: defaultAuthorId
+
+# hexo-admin authentification
+admin:
+  username: admin
+  password_hash: $2a$10$omwWR5jKvrnl9cMnwAgBQ.shN6GOm83acOYJCK3l9dSPIYsDf/CTK
+  secret: asdfein%^*!12asdlkfeicujjfiiue
