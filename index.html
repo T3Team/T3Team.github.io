@@ -1,0 +1,2695 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="T3Team&#39;s Blog">
+<meta property="og:url" content="https://t3team.github.io/index.html">
+<meta property="og:site_name" content="T3Team&#39;s Blog">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="T3Team&#39;s Blog">
+
+
+
+
+
+
+  <link rel="canonical" href="https://t3team.github.io/">
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>T3Team's Blog</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">T3Team's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2019/08/15/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/08/15/test/" itemprop="url">
+                  test
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-15 15:11:09 / 修改时间：15:11:21" itemprop="dateCreated datePublished" datetime="2019-08-15T15:11:09+08:00">2019-08-15</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>test</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/07/30/基于glide框架的图片加载器简介/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/30/基于glide框架的图片加载器简介/" itemprop="url">
+                  基于glide框架的图片加载器简介
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-30 09:27:09" itemprop="dateCreated datePublished" datetime="2018-07-30T09:27:09+08:00">2018-07-30</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 15:10:43" itemprop="dateModified" datetime="2019-08-15T15:10:43+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/android技术文档/" itemprop="url" rel="index"><span itemprop="name">android技术文档</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><ul>
+<li>为什么选择Glide？<br><a href="http://blog.csdn.net/github_33304260/article/details/70213300" target="_blank" rel="noopener">http://blog.csdn.net/github_33304260/article/details/70213300</a></li>
+<li>Glide直接能使用了，已经很方便了，为什么还要封装？<ul>
+<li>入口统一，所有图片加载都在这一个地方管理，一目了然，即使有什么改动我也只需要改这一个类就可以了。</li>
+<li>虽然现在的第三方库已经非常好用，但是如果我们看到第三方库就拿来用的话，很可能在第三方库无法满足业务需求或者停止维护的时候，发现替换库，工作量可见一斑。这就是不封装在切库时面临的窘境！</li>
+<li>外部表现一致，内部灵活处理原则</li>
+<li>更多内容参考：<a href="http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&amp;mid=2650661623&amp;idx=1&amp;sn=ab28ac6587e8a5ef1241be7870851355#rd" target="_blank" rel="noopener">如何正确使用开源项目？</a>  </li>
+</ul>
+</li>
+</ul>
+<h2 id="Glide基本使用"><a href="#Glide基本使用" class="headerlink" title="Glide基本使用"></a>Glide基本使用</h2><p>Glide使用一个流接口（Fluent Interface）。用Glide完成一个完整的图片加载功能请求，需要向其构造器中至少传入3个参数，分别是：</p>
+<blockquote>
+<ul>
+<li>with(Context context)- Context是许多Android API需要调用的， Glide也不例外。这里Glide非常方便，你可以任意传递一个Activity或者Fragment对象，它都可以自动提取出上下文。</li>
+<li>load(String imageUrl) - 这里传入的是你要加载的图片的URL，大多数情况下这个String类型的变量会链接到一个网络图片。</li>
+<li>into(ImageView targetImageView) - 将你所希望解析的图片传递给所要显示的ImageView。</li>
+</ul>
+</blockquote>
+<p>example:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ImageView targetImageView = (ImageView) findViewById(R.id.imageView);</span><br><span class="line">String internetUrl = &quot;http://i.imgur.com/DvpvklR.png&quot;;</span><br><span class="line"></span><br><span class="line">Glide</span><br><span class="line">    .with(context)</span><br><span class="line">    .load(internetUrl)</span><br><span class="line">    .into(targetImageView);</span><br></pre></td></tr></table></figure>
+<h2 id="常用API"><a href="#常用API" class="headerlink" title="常用API"></a>常用API</h2><blockquote>
+<ul>
+<li><strong>thumbnail(float sizeMultiplier)</strong>. 请求给定系数的缩略图。如果缩略图比全尺寸图先加载完，就显示缩略图，否则就不显示。系数sizeMultiplier必须在(0,1)之间，可以递归调用该方法。</li>
+<li><strong> (DiskCacheStrategy strategy).</strong>设置缓存策略。&gt; -DiskCacheStrategy.SOURCE：缓存原始数据，DiskCacheStrategy.RESULT：缓存变换(如缩放、裁剪等)后的资源数据，DiskCacheStrategy.NONE：什么都不缓存，DiskCacheStrategy.ALL：缓存SOURC和RESULT。默认采用&gt; -&gt; -DiskCacheStrategy.RESULT策略，对于download only操作要使用&gt; -DiskCacheStrategy.SOURCE。</li>
+<li><strong>priority(Priority priority)</strong>. 指定加载的优先级，优先级越高越优先加载，但不保证所有图片都按序加载。枚举Priority.IMMEDIATE，Priority.HIGH，Priority.NORMAL，Priority.LOW。默认为Priority.NORMAL。</li>
+<li><strong>dontAnimate()</strong> 移除所有的动画。</li>
+<li><strong>animate(int animationId).</strong> 在异步加载资源完成时会执行该动画。</li>
+<li><strong>animate(ViewPropertyAnimation.Animator animator).</strong> 在异步加载资源完成时会执行该动画。</li>
+<li><strong>animate(Animation animation).</strong> 在异步加载资源完成时会执行该动画。</li>
+<li><strong>placeholder(int resourceId)</strong>. 设置资源加载过程中的占位Drawable。</li>
+<li><strong>error(int resourceId).</strong> 设置load失败时显示的Drawable。</li>
+<li><strong>skipMemoryCache(boolean skip).</strong> 设置是否跳过内存缓存，但不保证一定不被缓存（比如请求已经在加载资源且没设置跳过内存缓存，这个资源就会被缓存在内存中）。</li>
+<li><strong>override(int width, int height).</strong> 重新设置Target的宽高值（单位为pixel）。</li>
+<li><strong>into(Y target)</strong>.设置资源将被加载到的Target。</li>
+<li><strong>into(ImageView view).</strong> 设置资源将被加载到的ImageView。取消该ImageView之前所有的加载并释放资源。</li>
+<li><strong>into(int width, int height)</strong>. 后台线程加载时要加载资源的宽高值（单位为pixel）。</li>
+<li><strong>preload(int width, int height)</strong>. 预加载resource到缓存中（单位为pixel）。</li>
+<li><strong>asBitmap().</strong> 无论资源是不是gif动画，都作为Bitmap对待。如果是gif动画会停在第一帧。</li>
+<li><strong>asGif().</strong> 把资源作为GifDrawable对待。如果资源不是gif动画将会失败，会回调.error()。</li>
+</ul>
+</blockquote>
+<p><strong><em>更多Glide详细介绍可以看<a href="https://github.com/bumptech/glide" target="_blank" rel="noopener">Glide官网</a>以及<a href="http://www.jianshu.com/p/7610bdbbad17" target="_blank" rel="noopener">Glide教程系列文章</a></em></strong></p>
+<h1 id="如何封装"><a href="#如何封装" class="headerlink" title="如何封装"></a>如何封装</h1><p>封装后的基本使用样式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ImageLoader.with(this)</span><br><span class="line">	.url(&quot;http://img.yxbao.com/news/image/201703/13/7bda462477.gif&quot;)</span><br><span class="line">	.placeHolder(R.mipmap.ic_launcher,false)</span><br><span class="line">	.rectRoundCorner(30, R.color.colorPrimary)</span><br><span class="line">	.blur(40)</span><br><span class="line">	.into(iv_round);</span><br></pre></td></tr></table></figure>
+<p>只需要关心ImageLoader就好了，就算里面封装的库更换、更新也没关系，因为对外的接口是不变的。实际操作中是由实现了ILoader的具体类去操作的，这里我们只封装了GlideLoader，其实所有操作都是由ImageLoader下发指令，由GlideLoader具体去实现的。这里如果想封装别的第三方库，只需要实现ILoader自己去完成里面的方法。</p>
+<p>##初始化</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">public static int CACHE_IMAGE_SIZE = 250;</span><br><span class="line"></span><br><span class="line">   public static void init(final Context context) &#123;</span><br><span class="line">       init(context, CACHE_IMAGE_SIZE);</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   public static void init(final Context context, int cacheSizeInM) &#123;</span><br><span class="line">       init(context, cacheSizeInM, MemoryCategory.NORMAL);</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   public static void init(final Context context, int cacheSizeInM, MemoryCategory memoryCategory) &#123;</span><br><span class="line">       init(context, cacheSizeInM, memoryCategory, true);</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   /**</span><br><span class="line">    * @param context        上下文</span><br><span class="line">    * @param cacheSizeInM   Glide默认磁盘缓存最大容量250MB</span><br><span class="line">    * @param memoryCategory 调整内存缓存的大小 LOW(0.5f) ／ NORMAL(1f) ／ HIGH(1.5f);</span><br><span class="line">    * @param isInternalCD   true 磁盘缓存到应用的内部目录 / false 磁盘缓存到外部存</span><br><span class="line">    */</span><br><span class="line">   public static void init(final Context context, int cacheSizeInM, MemoryCategory memoryCategory, boolean isInternalCD) &#123;</span><br><span class="line">       ImageLoader.context = context;</span><br><span class="line">       GlobalConfig.init(context, cacheSizeInM, memoryCategory, isInternalCD);</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<p>从这里可以看出我们提供了四个构造器，这里注释详细说明了所有参数的用法及意义。</p>
+<p>##你所关心的类–ImageLoader<br>ImageLoader是封装好所有的方法供用户使用的，让我们看看都有什么方法：</p>
+<blockquote>
+<ul>
+<li>ImageLoader.init(Context context) //初始化</li>
+<li>ImageLoader.trimMemory(int level); </li>
+<li>ImageLoader.clearAllMemoryCaches();</li>
+<li>ImageLoader.getActualLoader(); //获取当前的loader </li>
+<li>ImageLoader.with(Context context) //加载图片</li>
+<li>ImageLoader.saveImageIntoGallery(String url) // 保存图片到相册</li>
+<li>ImageLoader.pauseRequests() //取消请求</li>
+<li>ImageLoader.resumeRequests() //回复的请求（当列表在滑动的时候，调用pauseRequests()取消请求，滑动停止时，调用resumeRequests()恢复请求  等等）</li>
+<li>ImageLoader.clearDiskCache()//清除磁盘缓存(必须在后台线程中调用)</li>
+<li>ImageLoader.clearMomoryCache(View view) //清除指定view的缓存</li>
+<li>ImageLoader.clearMomory() // 清除内存缓存(必须在UI线程中调用)</li>
+</ul>
+</blockquote>
+<p>##图片的各种设置信息–SingleConfig<br>我们所设置图片的所有属性都写在这个类里面。下面我们详细的看一下：</p>
+<blockquote>
+<ul>
+<li>url(String url) //支持filepath、图片链接、contenProvider、资源id四种</li>
+<li>thumbnail(float thumbnail)//缩略图</li>
+<li>rectRoundCorner(int rectRoundRadius, int overlayColorWhenGif) //形状为圆角矩形时的圆角半径</li>
+<li>asSquare() //形状为正方形</li>
+<li>colorFilter(int color) //颜色滤镜</li>
+<li>diskCacheStrategy(DiskCacheStrategy diskCacheStrategy) <ol>
+<li>DiskCacheStrategy.ALL 使用DATA和RESOURCE缓存远程数据，仅使用RESOURCE来缓存本地数据。</li>
+<li>DiskCacheStrategy.NONE 不使用磁盘缓存</li>
+<li>DiskCacheStrategy.DATA 在资源解码前就将原始数据写入磁盘缓存</li>
+<li>DiskCacheStrategy.RESOURCE 在资源解码后将数据写入磁盘缓存，即经过缩放等转换后的图片资源。</li>
+<li>DiskCacheStrategy.AUTOMATIC 根据原始图片数据和资源编码策略来自动选择磁盘缓存策略。（默认）</li>
+</ol>
+</li>
+<li>asCircle(int overlayColorWhenGif)//加载圆形图片</li>
+<li>placeHolder(int placeHolderResId) //占位图</li>
+<li>override(int oWidth, int oHeight) //加载图片时设置分辨率 a</li>
+<li>scale(int scaleMode) // CENTER_CROP等比例缩放图片，直到图片的狂高都大于等于ImageView的宽度，然后截取中间的显示 ; FIT_CENTER 等比例缩放图片，宽或者是高等于ImageView的宽或者是高 默认：FIT_CENTER</li>
+<li>animate(int animationId ) 引入动画</li>
+<li>animate( Animation animation) 引入动画</li>
+<li>animate(ViewPropertyAnimation.Animator animato) 引入动画</li>
+<li>asBitmap(BitmapListener bitmapListener)// 使用bitmap不显示到imageview</li>
+<li>into(View targetView) //展示到imageview</li>
+<li>colorFilter(int filteColor) //颜色滤镜</li>
+<li>blur(int blurRadius) ／/高斯模糊</li>
+<li>brightnessFilter(float level) //调节图片亮度</li>
+<li>grayscaleFilter() //黑白效果</li>
+<li>swirlFilter() //漩涡效果</li>
+<li>toonFilter() //油画效果</li>
+<li>sepiaFilter() //水墨画效果</li>
+<li>contrastFilter(float constrasrLevel) //锐化效果</li>
+<li>invertFilter() //胶片效果</li>
+<li>pixelationFilter(float pixelationLevel)  //马赛克效果</li>
+<li>sketchFilter() //  //素描效果</li>
+<li>vignetteFilter() //晕映效果</li>
+</ul>
+</blockquote>
+<p>##中转站–GlideLoader<br>GlideLoader实现ILoader接口。在使用的时候我们虽然不用关心这个类。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br></pre></td><td class="code"><pre><span class="line">public class GlideLoader implements ILoader &#123;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * @param context        上下文</span><br><span class="line">     * @param cacheSizeInM   Glide默认磁盘缓存最大容量250MB</span><br><span class="line">     * @param memoryCategory 调整内存缓存的大小 LOW(0.5f) ／ NORMAL(1f) ／ HIGH(1.5f);</span><br><span class="line">     * @param isInternalCD   true 磁盘缓存到应用的内部目录 / false 磁盘缓存到外部存</span><br><span class="line">     */</span><br><span class="line">    @Override</span><br><span class="line">    public void init(Context context, int cacheSizeInM, MemoryCategory memoryCategory, boolean isInternalCD) &#123;</span><br><span class="line">        Glide.get(context).setMemoryCategory(memoryCategory); //如果在应用当中想要调整内存缓存的大小，开发者可以通过如下方式：</span><br><span class="line">        GlideBuilder builder = new GlideBuilder();</span><br><span class="line">        if (isInternalCD) &#123;</span><br><span class="line">            builder.setDiskCache(new InternalCacheDiskCacheFactory(context, cacheSizeInM * 1024 * 1024));</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">            builder.setDiskCache(new ExternalPreferredCacheDiskCacheFactory(context, cacheSizeInM * 1024 * 1024));</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void request(final SingleConfig config) &#123;</span><br><span class="line">        RequestOptions requestOptions = getRequestOptions(config);//得到初始的 RequestOptions</span><br><span class="line"></span><br><span class="line">        RequestBuilder requestBuilder = getRequestBuilder(config); //得到一个正确类型的 RequestBuilder(bitmap or 其他加载)</span><br><span class="line"></span><br><span class="line">        if (requestBuilder == null) &#123;</span><br><span class="line">            return;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        requestBuilder.apply(requestOptions);//应用RequestOptions</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        //设置缩略图</span><br><span class="line">        if (config.getThumbnail() != 0) &#123; //设置缩略比例</span><br><span class="line">            requestBuilder.thumbnail(config.getThumbnail());</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        //设置图片加载动画</span><br><span class="line">        setAnimator(config, requestBuilder);</span><br><span class="line"></span><br><span class="line">        if (config.isAsBitmap()) &#123;//如果是获取bitmap,则回调</span><br><span class="line">            SimpleTarget target = new SimpleTarget&lt;Bitmap&gt;(config.getWidth(), config.getHeight()) &#123;</span><br><span class="line">                @Override</span><br><span class="line">                public void onResourceReady(@NonNull Bitmap resource, @Nullable Transition&lt;? super Bitmap&gt; transition) &#123;</span><br><span class="line">                    if (config.getBitmapListener() != null) &#123;</span><br><span class="line">                        config.getBitmapListener().onSuccess(resource);</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125;;</span><br><span class="line">            requestBuilder.into(target);</span><br><span class="line">        &#125; else &#123;//如果是加载图片，（无论是否为Gif）</span><br><span class="line">            if (config.getTarget() instanceof ImageView) &#123;</span><br><span class="line">                requestBuilder.into((ImageView) config.getTarget());</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    private RequestOptions getRequestOptions(SingleConfig config) &#123;</span><br><span class="line">        RequestOptions options = new RequestOptions();</span><br><span class="line">        //设置磁盘缓存</span><br><span class="line">        if (config.getDiskCacheStrategy() != null) &#123;</span><br><span class="line">            options.diskCacheStrategy(config.getDiskCacheStrategy());</span><br><span class="line">        &#125;else&#123;</span><br><span class="line">            options.diskCacheStrategy(DiskCacheStrategy.AUTOMATIC);//默认为自动选择</span><br><span class="line">        &#125;</span><br><span class="line">        if (ImageUtil.shouldSetPlaceHolder(config)) &#123;</span><br><span class="line">            options = options.placeholder(config.getPlaceHolderResId());</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        int scaleMode = config.getScaleMode();</span><br><span class="line"></span><br><span class="line">        switch (scaleMode) &#123;</span><br><span class="line">            case ScaleMode.CENTER_CROP:</span><br><span class="line">                options.centerCrop();</span><br><span class="line">                break;</span><br><span class="line">            case ScaleMode.FIT_CENTER:</span><br><span class="line">                options.fitCenter();</span><br><span class="line">                break;</span><br><span class="line">            default:</span><br><span class="line">                options.fitCenter();</span><br><span class="line">                break;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        //设置图片加载的分辨 sp</span><br><span class="line">        if (config.getoWidth() != 0 &amp;&amp; config.getoHeight() != 0) &#123;</span><br><span class="line">            options.override(config.getoWidth(), config.getoHeight());</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        //设置图片加载优先级</span><br><span class="line">        setPriority(config, options);</span><br><span class="line"></span><br><span class="line">        if (config.getErrorResId() &gt; 0) &#123;</span><br><span class="line">            options.error(config.getErrorResId());</span><br><span class="line">        &#125;</span><br><span class="line">        setShapeModeAndBlur(config, options);//设置RequestOptions 关于 多重变换</span><br><span class="line">        return options;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 设置加载优先级</span><br><span class="line">     *</span><br><span class="line">     * @param config</span><br><span class="line">     * @param options</span><br><span class="line">     */</span><br><span class="line">    private void setPriority(SingleConfig config, RequestOptions options) &#123;</span><br><span class="line">        switch (config.getPriority()) &#123;</span><br><span class="line">            case PriorityMode.PRIORITY_LOW:</span><br><span class="line">                options.priority(Priority.LOW);</span><br><span class="line">                break;</span><br><span class="line">            case PriorityMode.PRIORITY_NORMAL:</span><br><span class="line">                options.priority(Priority.NORMAL);</span><br><span class="line">                break;</span><br><span class="line">            case PriorityMode.PRIORITY_HIGH:</span><br><span class="line">                options.priority(Priority.HIGH);</span><br><span class="line">                break;</span><br><span class="line">            case PriorityMode.PRIORITY_IMMEDIATE:</span><br><span class="line">                options.priority(Priority.IMMEDIATE);</span><br><span class="line">                break;</span><br><span class="line">            default:</span><br><span class="line">                options.priority(Priority.IMMEDIATE);</span><br><span class="line">                break;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 设置加载进入动画</span><br><span class="line">     *</span><br><span class="line">     * @param config</span><br><span class="line">     * @param request</span><br><span class="line">     */</span><br><span class="line">    private void setAnimator(SingleConfig config, RequestBuilder request) &#123;</span><br><span class="line">        if (config.getAnimationType() == AnimationMode.ANIMATIONID) &#123;</span><br><span class="line">            GenericTransitionOptions genericTransitionOptions = GenericTransitionOptions.with(config.getAnimationId());</span><br><span class="line">            request.transition(genericTransitionOptions);</span><br><span class="line">        &#125; else if (config.getAnimationType() == AnimationMode.ANIMATOR) &#123;</span><br><span class="line">            GenericTransitionOptions genericTransitionOptions = GenericTransitionOptions.with(config.getAnimator());</span><br><span class="line">            request.transition(genericTransitionOptions);</span><br><span class="line">        &#125; else if (config.getAnimationType() == AnimationMode.ANIMATION) &#123;</span><br><span class="line">            GenericTransitionOptions genericTransitionOptions = GenericTransitionOptions.with(new ViewAnimationFactory(config.getAnimation()));</span><br><span class="line">            request.transition(genericTransitionOptions);</span><br><span class="line">        &#125; else &#123;//设置默认的交叉淡入动画</span><br><span class="line">            request.transition(DrawableTransitionOptions.withCrossFade());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Nullable</span><br><span class="line">    private RequestBuilder getRequestBuilder(SingleConfig config) &#123;</span><br><span class="line"></span><br><span class="line">        RequestManager requestManager = Glide.with(config.getContext());</span><br><span class="line">        RequestBuilder request = null;</span><br><span class="line">        if (config.isAsBitmap()) &#123;</span><br><span class="line">            request = requestManager.asBitmap();</span><br><span class="line"></span><br><span class="line">        &#125; else if (config.isGif()) &#123;</span><br><span class="line">            request = requestManager.asGif();</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">            request = requestManager.asDrawable();</span><br><span class="line">        &#125;</span><br><span class="line">        if (!TextUtils.isEmpty(config.getUrl())) &#123;</span><br><span class="line">            request.load(ImageUtil.appendUrl(config.getUrl()));</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getUrl : &quot; + config.getUrl());</span><br><span class="line">        &#125; else if (!TextUtils.isEmpty(config.getFilePath())) &#123;</span><br><span class="line">            request.load(ImageUtil.appendUrl(config.getFilePath()));</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getFilePath : &quot; + config.getFilePath());</span><br><span class="line">        &#125; else if (!TextUtils.isEmpty(config.getContentProvider())) &#123;</span><br><span class="line">            request.load(Uri.parse(config.getContentProvider()));</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getContentProvider : &quot; + config.getContentProvider());</span><br><span class="line">        &#125; else if (config.getResId() &gt; 0) &#123;</span><br><span class="line">            request.load(config.getResId());</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getResId : &quot; + config.getResId());</span><br><span class="line">        &#125; else if (config.getFile() != null) &#123;</span><br><span class="line">            request.load(config.getFile());</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getFile : &quot; + config.getFile());</span><br><span class="line">        &#125; else if (!TextUtils.isEmpty(config.getAssertspath())) &#123;</span><br><span class="line">            request.load(config.getAssertspath());</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getAssertspath : &quot; + config.getAssertspath());</span><br><span class="line">        &#125; else if (!TextUtils.isEmpty(config.getRawPath())) &#123;</span><br><span class="line">            request.load(config.getRawPath());</span><br><span class="line">            Log.e(&quot;TAG&quot;, &quot;getRawPath : &quot; + config.getRawPath());</span><br><span class="line">        &#125;</span><br><span class="line">        return request;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 设置图片滤镜和形状</span><br><span class="line">     *</span><br><span class="line">     * @param config</span><br><span class="line">     * @param options</span><br><span class="line">     */</span><br><span class="line">    private void setShapeModeAndBlur(SingleConfig config, RequestOptions options) &#123;</span><br><span class="line"></span><br><span class="line">        int count = 0;</span><br><span class="line"></span><br><span class="line">        Transformation[] transformation = new Transformation[statisticsCount(config)];</span><br><span class="line"></span><br><span class="line">        if (config.isNeedBlur()) &#123;</span><br><span class="line">            transformation[count] = new BlurTransformation(config.getBlurRadius());</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedBrightness()) &#123;</span><br><span class="line">            transformation[count] = new BrightnessFilterTransformation(config.getBrightnessLeve()); //亮度</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedGrayscale()) &#123;</span><br><span class="line">            transformation[count] = new GrayscaleTransformation(); //黑白效果</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedFilteColor()) &#123;</span><br><span class="line">            transformation[count] = new ColorFilterTransformation(config.getFilteColor());</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedSwirl()) &#123;</span><br><span class="line">            transformation[count] = new SwirlFilterTransformation(0.5f, 1.0f, new PointF(0.5f, 0.5f)); //漩涡</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedToon()) &#123;</span><br><span class="line">            transformation[count] = new ToonFilterTransformation(); //油画</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedSepia()) &#123;</span><br><span class="line">            transformation[count] = new SepiaFilterTransformation(); //墨画</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedContrast()) &#123;</span><br><span class="line">            transformation[count] = new ContrastFilterTransformation(config.getContrastLevel()); //锐化</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedInvert()) &#123;</span><br><span class="line">            transformation[count] = new InvertFilterTransformation(); //胶片</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedPixelation()) &#123;</span><br><span class="line">            transformation[count] = new PixelationFilterTransformation(config.getPixelationLevel()); //马赛克</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedSketch()) &#123;</span><br><span class="line">            transformation[count] = new SketchFilterTransformation(); //素描</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (config.isNeedVignette()) &#123;</span><br><span class="line">            transformation[count] = new VignetteFilterTransformation(new PointF(0.5f, 0.5f),</span><br><span class="line">                    new float[]&#123;0.0f, 0.0f, 0.0f&#125;, 0f, 0.75f);//晕映</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        switch (config.getShapeMode()) &#123;</span><br><span class="line">            case ShapeMode.RECT:</span><br><span class="line"></span><br><span class="line">                break;</span><br><span class="line">            case ShapeMode.RECT_ROUND:</span><br><span class="line">                transformation[count] = new RoundedCornersTransformation</span><br><span class="line">                        (config.getRectRoundRadius(), 0, RoundedCornersTransformation.CornerType.ALL);</span><br><span class="line">                count++;</span><br><span class="line">                break;</span><br><span class="line">            case ShapeMode.OVAL://@deprecated Use &#123;@link RequestOptions#circleCrop()&#125;.</span><br><span class="line">//                transformation[count] = new CropCircleTransformation();</span><br><span class="line">//                count++;</span><br><span class="line">                options = options.circleCrop();</span><br><span class="line">                break;</span><br><span class="line"></span><br><span class="line">            case ShapeMode.SQUARE:</span><br><span class="line">                transformation[count] = new CropSquareTransformation();</span><br><span class="line">                count++;</span><br><span class="line">                break;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        if (transformation.length != 0) &#123;</span><br><span class="line">            options.transforms(transformation);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    ...</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/07/26/项目MVVM结构简析/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/26/项目MVVM结构简析/" itemprop="url">
+                  项目MVVM结构简析
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-26 14:44:40" itemprop="dateCreated datePublished" datetime="2018-07-26T14:44:40+08:00">2018-07-26</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 13:54:04" itemprop="dateModified" datetime="2019-08-15T13:54:04+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="MVVM框架"><a href="#MVVM框架" class="headerlink" title="MVVM框架"></a>MVVM框架</h2><p>google官方发布了MVVM的正式库。官方的正式MVVM库主要包括下面四个：<br><img src="/images/google_arm.png" alt="google_arm"></p>
+<p><strong>其中只有ViewModel是MVVM结构中的一个组件，其他的三个都是辅助性质的。</strong><br>lifecycles 就是处理UI界面的生命周期，在26版本以后的Support库中，AppCompatActivity和SupportActivity中都实现了LifecycleOwner，内部已经对UI界面的生命周期做了处理了。<br>LiveData是一个抽象类，我们可以存放UI页面需要的数据，就是把数据包装在LiveData中了，我们可以观测LiveData中的数据变化，但是LiveData是跟UI的生命周期关联的，当UI页面销毁了，LiveData的数据变化回调是不会执行的。<br>Room 就是一个sqlite数据持久化库，我们也可以使用别的ORM库。</p>
+<h2 id="MVVM架构优势"><a href="#MVVM架构优势" class="headerlink" title="MVVM架构优势"></a>MVVM架构优势</h2><p>一张图看看MVVM:<br><img src="/images/mvvm_arm.jpg" alt="mmvm_arm"></p>
+<p><img src="/images/vvvvv.png" alt="vvvvv"><br>看上图Model和View是不会发生关系的，ViewModel是把View和Model关联起来的.</p>
+<ul>
+<li><p>View和Model双向绑定，一方的改变都会影响另一方，开发者不用再去手动修改UI的数据。互相自动更新。</p>
+</li>
+<li><p>View和Model的双向绑定是支持生命周期检测的，不会担心页面销毁了还有回调发生，这个由lifeCycle完成。</p>
+</li>
+<li><p>不会像MVC一样Activity中代码量巨大，也不会像MVP一样出现大量的View和Presenter接口。项目结构更加低耦合。</p>
+</li>
+<li><p>更低的耦合把各个模块分开开发，分开测试，可以分给不同的开发人员来完成。</p>
+</li>
+</ul>
+<h2 id="MVVM项目架构分析"><a href="#MVVM项目架构分析" class="headerlink" title="MVVM项目架构分析"></a>MVVM项目架构分析</h2><p>项目整体架构如官方下图架构：<br><img src="/images/apparcc.png" alt="apparcc"></p>
+<p>下图是项目模块和工程之间的依赖关系：<br><img src="/images/appmvvm.png" alt="appmvvm"></p>
+<h2 id="ARouter串联各个模块"><a href="#ARouter串联各个模块" class="headerlink" title="ARouter串联各个模块"></a>ARouter串联各个模块</h2><p>使用ARouter来跳转Activity和获取Fragment.</p>
+<p>ARouter常见的应用场景</p>
+<ul>
+<li>从外部URL映射到内部页面，以及参数传递与解析</li>
+<li>跨模块页面跳转，模块间解耦</li>
+<li>拦截跳转过程，处理登陆、埋点等逻辑(添加拦截器的方法是利用Interceptor注解，实现IInterceptor接口)</li>
+<li>跨模块API调用，通过控制反转来做组件解耦</li>
+</ul>
+<h3 id="Api常用方法"><a href="#Api常用方法" class="headerlink" title="Api常用方法"></a>Api常用方法</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">// 构建标准的路由请求</span><br><span class="line">ARouter.getInstance().build(&quot;/home/main&quot;).navigation();</span><br><span class="line"></span><br><span class="line">// 构建标准的路由请求，并指定分组</span><br><span class="line">ARouter.getInstance().build(&quot;/home/main&quot;, &quot;ap&quot;).navigation();</span><br><span class="line"></span><br><span class="line">// 构建标准的路由请求，通过Uri直接解析</span><br><span class="line">Uri uri;</span><br><span class="line">ARouter.getInstance().build(uri).navigation();</span><br><span class="line"></span><br><span class="line">// 构建标准的路由请求，startActivityForResult</span><br><span class="line">// navigation的第一个参数必须是Activity，第二个参数则是RequestCode</span><br><span class="line">ARouter.getInstance().build(&quot;/home/main&quot;, &quot;ap&quot;).navigation(this, 5);</span><br><span class="line"></span><br><span class="line">// 直接传递Bundle</span><br><span class="line">Bundle params = new Bundle();</span><br><span class="line">ARouter.getInstance()</span><br><span class="line">    .build(&quot;/home/main&quot;)</span><br><span class="line">    .with(params)</span><br><span class="line">    .navigation();</span><br><span class="line"></span><br><span class="line">// 指定Flag</span><br><span class="line">ARouter.getInstance()</span><br><span class="line">    .build(&quot;/home/main&quot;)</span><br><span class="line">    .withFlags();</span><br><span class="line">    .navigation();</span><br><span class="line"></span><br><span class="line">// 获取Fragment</span><br><span class="line">Fragment fragment = (Fragment) ARouter.getInstance().build(&quot;/test/fragment&quot;).navigation();</span><br><span class="line"></span><br><span class="line">// 对象传递</span><br><span class="line">ARouter.getInstance()</span><br><span class="line">    .withObject(&quot;key&quot;, new TestObj(&quot;Jack&quot;, &quot;Rose&quot;))</span><br><span class="line">    .navigation();</span><br><span class="line"></span><br><span class="line">// 觉得接口不够多，可以直接拿出Bundle赋值</span><br><span class="line">ARouter.getInstance()</span><br><span class="line">        .build(&quot;/home/main&quot;)</span><br><span class="line">        .getExtra();</span><br><span class="line"></span><br><span class="line">// 转场动画(常规方式)</span><br><span class="line">ARouter.getInstance()</span><br><span class="line">    .build(&quot;/test/activity2&quot;)</span><br><span class="line">    .withTransition(R.anim.slide_in_bottom, R.anim.slide_out_bottom)</span><br><span class="line">    .navigation(this);</span><br><span class="line"></span><br><span class="line">// 转场动画(API16+)</span><br><span class="line">ActivityOptionsCompat compat = ActivityOptionsCompat.</span><br><span class="line">    makeScaleUpAnimation(v, v.getWidth() / 2, v.getHeight() / 2, 0, 0);</span><br><span class="line"></span><br><span class="line">//  makeSceneTransitionAnimation 使用共享元素的时候，需要在navigation方法中传入当前Activity</span><br><span class="line">ARouter.getInstance()</span><br><span class="line">    .build(&quot;/test/activity2&quot;)</span><br><span class="line">    .withOptionsCompat(compat)</span><br><span class="line">    .navigation();</span><br><span class="line"></span><br><span class="line">// 使用绿色通道(跳过所有的拦截器)</span><br><span class="line">ARouter.getInstance().build(&quot;/home/main&quot;).greenChannel().navigation();</span><br><span class="line"></span><br><span class="line">// 使用自己的日志工具打印日志</span><br><span class="line">ARouter.setLogger();</span><br><span class="line"></span><br><span class="line">//获取原始的URI</span><br><span class="line">String uriStr = getIntent().getStringExtra(ARouter.RAW_URI);</span><br><span class="line"></span><br><span class="line">//关闭ARouter</span><br><span class="line">ARouter.getInstance().destroy();</span><br></pre></td></tr></table></figure>
+<h2 id="组件化编译和非组件化编译切换"><a href="#组件化编译和非组件化编译切换" class="headerlink" title="组件化编译和非组件化编译切换"></a>组件化编译和非组件化编译切换</h2><p>在工程根目录下的gradle.properties文件中加入一个Boolean类型的变量，通过修改这个变量来识别编译模式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 每次更改“isBuildModule”的值后，需要点击 &quot;Sync Project&quot; 按钮</span><br><span class="line"># isBuildModule“集成开发模式”和“组件开发模式”的切换开关</span><br><span class="line">isBuildModule=false</span><br></pre></td></tr></table></figure></p>
+<p>然后在 各个module中的build.gradle文件中支持切换：<br>示例:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line">if (isBuildModule.toBoolean()) &#123;</span><br><span class="line">    apply plugin: &apos;com.android.application&apos;</span><br><span class="line">&#125; else &#123;</span><br><span class="line">    apply plugin: &apos;com.android.library&apos;</span><br><span class="line">&#125;</span><br><span class="line">android &#123;</span><br><span class="line">    compileSdkVersion parent.ext.compileSdkVersion</span><br><span class="line">    buildToolsVersion parent.ext.buildToolsVersion</span><br><span class="line"></span><br><span class="line">    sourceSets &#123;</span><br><span class="line">        main &#123;</span><br><span class="line">            if (isBuildModule.toBoolean()) &#123;</span><br><span class="line">                manifest.srcFile &apos;src/main/debug/AndroidManifest.xml&apos;</span><br><span class="line">            &#125; else &#123;</span><br><span class="line">                manifest.srcFile &apos;src/main/release/AndroidManifest.xml&apos;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if (isBuildModule.toBoolean()) &#123;</span><br><span class="line">        packagingOptions &#123;</span><br><span class="line">            exclude &apos;META-INF/LICENSE&apos;</span><br><span class="line">            exclude &apos;META-INF/NOTICE&apos;</span><br><span class="line">            exclude &apos;META-INF/DEPENDENCIES&apos;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    defaultConfig &#123;</span><br><span class="line">        if (isBuildModule.toBoolean()) &#123;</span><br><span class="line">            applicationId &quot;base.android.t3t.netrequestdemo&quot;</span><br><span class="line">        &#125;</span><br><span class="line">        minSdkVersion 14</span><br><span class="line">        targetSdkVersion 27</span><br><span class="line">        versionCode 1</span><br><span class="line">        versionName &quot;1.0&quot;</span><br><span class="line"></span><br><span class="line">        javaCompileOptions &#123;</span><br><span class="line">            annotationProcessorOptions &#123;</span><br><span class="line">                arguments = [moduleName: project.getName()]</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    buildTypes &#123;</span><br><span class="line">        release &#123;</span><br><span class="line">            minifyEnabled false</span><br><span class="line">            proguardFiles getDefaultProguardFile(&apos;proguard-android.txt&apos;), &apos;proguard-rules.pro&apos;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">dependencies &#123;</span><br><span class="line">    implementation fileTree(dir: &apos;libs&apos;, include: [&apos;*.jar&apos;])</span><br><span class="line">    implementation project(&apos;:basebusinesslib&apos;)</span><br><span class="line">    annotationProcessor &quot;com.alibaba:arouter-compiler:$arouter_compiler_version&quot;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/07/10/redux-introduction-00/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/10/redux-introduction-00/" itemprop="url">
+                  Redux介绍
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-10 11:04:18" itemprop="dateCreated datePublished" datetime="2018-07-10T11:04:18+08:00">2018-07-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 13:54:04" itemprop="dateModified" datetime="2019-08-15T13:54:04+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Redux/" itemprop="url" rel="index"><span itemprop="name">Redux</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="何时使用-Redux？"><a href="#何时使用-Redux？" class="headerlink" title="何时使用 Redux？"></a>何时使用 Redux？</h3><p>需要明确一点，Redux 是一个有用的架构，但不是非用不可。事实上，大多数情况，你可以不用它，只用 React 就够了。</p>
+<p>React 早期贡献者之一 Pete Hunt 说：</p>
+<blockquote>
+<p>你应当清楚何时需要 Flux。如果你不确定是否需要它，那么其实你并不需要它。</p>
+</blockquote>
+<p>Redux 的创建者之一 Dan Abramov 也曾表达过类似的意思:</p>
+<blockquote>
+<p>我想修正一个观点：当你在使用 React 遇到问题时，才使用 Redux。</p>
+</blockquote>
+<p>简单说，如果你的UI层非常简单，没有很多互动，Redux 就是不必要的，用了反而增加复杂性。</p>
+<ul>
+<li>用户的使用方式非常简单</li>
+<li>用户之间没有协作</li>
+<li>不需要与服务器大量交互，也没有使用 WebSocket</li>
+<li>视图层（View）只从单一来源获取数据</li>
+</ul>
+<p>上面这些情况，都不需要使用 Redux。</p>
+<ul>
+<li>用户的使用方式复杂</li>
+<li>不同身份的用户有不同的使用方式（比如普通用户和管理员）</li>
+<li>多个用户之间可以协作</li>
+<li>与服务器大量交互，或者使用了WebSocket</li>
+<li>View要从多个来源获取数据</li>
+</ul>
+<p>上面这些情况才是 Redux 的适用场景：多交互、多数据源。</p>
+<p>从组件角度看，如果你的应用有以下场景，可以考虑使用 Redux。</p>
+<ul>
+<li>某个组件的状态，需要共享</li>
+<li>某个状态需要在任何地方都可以拿到</li>
+<li>一个组件需要改变全局状态</li>
+<li>一个组件需要改变另一个组件的状态</li>
+</ul>
+<p>发生上面情况时，如果不使用 Redux 或者其他状态管理工具，不按照一定规律处理状态的读写，代码很快就会变成一团乱麻。你需要一种机制，可以在同一个地方查询状态、改变状态、传播状态的变化。</p>
+<p>最后需要说明的是：Redux 仅仅是个工具。它是一个伟大的工具，经常有一个很棒的理由去使用它，但也有很多的理由不去使用它。时刻注意对你的工具做出明确的决策，并且权衡每个决策带来的利弊。</p>
+<h2 id="Redux是什么？"><a href="#Redux是什么？" class="headerlink" title="Redux是什么？"></a>Redux是什么？</h2><p>Redux是JavaScript状态容器，能提供可预测化的状态管理。</p>
+<p>它认为：</p>
+<ul>
+<li>Web应用是一个状态机，视图与状态是一一对应的。</li>
+<li>所有的状态，保存在一个对象里面。</li>
+</ul>
+<p>我们先来看看“状态容器”、“视图与状态一一对应”以及“一个对象”这三个概念的具体体现。</p>
+<p><img src="https://tech.meituan.com/img/redux-design-code/%E7%8A%B6%E6%80%81%E5%AE%B9%E5%99%A8.png" alt="dw topic"></p>
+<p>如上图，Store是Redux中的状态容器，它里面存储着所有的状态数据，每个状态都跟一个视图一一对应。</p>
+<p>Redux也规定，一个State对应一个View。只要State相同，View就相同，知道了State，就知道View是什么样，反之亦然。</p>
+<p>比如，当前页面分三种状态：loading（加载中）、success（加载成功）或者error（加载失败），那么这三个就分别唯一对应着一种视图。</p>
+<p>现在我们对“状态容器”以及“视图与状态一一对应”有所了解了，那么Redux是怎么实现可预测化的呢？我们再来看下Redux的工作流程。</p>
+<p><img src="https://tech.meituan.com/img/redux-design-code/Redux%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.png" alt="dw topic"></p>
+<p>首先，我们看下几个核心概念：</p>
+<ul>
+<li>Store：保存数据的地方，你可以把它看成一个容器，整个应用只能有一个Store。</li>
+<li>State：Store对象包含所有数据，如果想得到某个时点的数据，就要对Store生成快照，这种时点的数据集合，就叫做State。</li>
+<li>Action：State的变化，会导致View的变化。但是，用户接触不到State，只能接触到View。所以，State的变化必须是View导致的。Action就是View发出的通知，表示State应该要发生变化了。</li>
+<li>Action Creator：View要发送多少种消息，就会有多少种Action。如果都手写，会很麻烦，所以我们定义一个函数来生成Action，这个函数就叫Action Creator。</li>
+<li>Reducer：Store收到Action以后，必须给出一个新的State，这样View才会发生变化。这种State的计算过程就叫做Reducer。Reducer是一个函数，它接受Action和当前State作为参数，返回一个新的State。</li>
+<li>dispatch：是View发出Action的唯一方法。</li>
+</ul>
+<p>然后我们过下整个工作流程：</p>
+<ol>
+<li>首先，用户（通过View）发出Action，发出方式就用到了dispatch方法。</li>
+<li>然后，Store自动调用Reducer，并且传入两个参数：当前State和收到的Action，Reducer会返回新的State</li>
+<li>State一旦有变化，Store就会调用监听函数，来更新View。</li>
+</ol>
+<p>到这儿为止，一次用户交互流程结束。可以看到，在整个流程中数据都是单向流动的，这种方式保证了流程的清晰。</p>
+<h2 id="为什么要用Redux？"><a href="#为什么要用Redux？" class="headerlink" title="为什么要用Redux？"></a>为什么要用Redux？</h2><p>前端复杂性的根本原因是大量无规律的交互和异步操作。</p>
+<p>变化和异步操作的相同作用都是改变了当前View的状态，但是它们的无规律性导致了前端的复杂，而且随着代码量越来越大，我们要维护的状态也越来越多。</p>
+<p>我们很容易就对这些状态何时发生、为什么发生以及怎么发生的失去控制。那么怎样才能让这些状态变化能被我们预先掌握，可以复制追踪呢？</p>
+<p>这就是Redux设计的动机所在。</p>
+<p>Redux试图让每个State变化都是可预测的，将应用中所有的动作与状态都统一管理，让一切有据可循。</p>
+<p><img src="https://tech.meituan.com/img/redux-design-code/redux%E4%B9%8B%E5%89%8D.png" alt="dw topic"></p>
+<p>如上图所示，如果我们的页面比较复杂，又没有用任何数据层框架的话，就是图片上这个样子：交互上存在父子、子父、兄弟组件间通信，数据也存在跨层、反向的数据流。</p>
+<p>这样的话，我们维护起来就会特别困难，那么我们理想的应用状态是什么样呢？看下图：</p>
+<p><img src="https://tech.meituan.com/img/redux-design-code/redux%E4%B9%8B%E5%90%8E.png" alt="dw topic"></p>
+<p>架构层面上讲，我们希望UI跟数据和逻辑分离，UI只负责渲染，业务和逻辑交由其它部分处理，从数据流向方面来说, 单向数据流确保了整个流程清晰。</p>
+<p>我们之前的操作可以复制、追踪出来，这也是Redux的主要设计思想。</p>
+<p>综上，Redux可以做到：</p>
+<ul>
+<li>每个State变化可预测。</li>
+<li>动作与状态统一管理。</li>
+</ul>
+<h2 id="redux与react-redux关系图"><a href="#redux与react-redux关系图" class="headerlink" title="redux与react-redux关系图"></a>redux与react-redux关系图</h2><p><img src="http://zhenhua-lee.github.io/img/react/redux.png" alt="react-with-redux"></p>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p><a href="https://cn.redux.js.org/" target="_blank" rel="noopener">Redux中文文档</a></p>
+<p><a href="https://tech.meituan.com/redux_design_code.html" target="_blank" rel="noopener">美团技术团队-Redux从设计到源码</a></p>
+<p><a href="http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html" target="_blank" rel="noopener">阮一峰Redux相关文章</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/07/04/2-x基础入门/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/04/2-x基础入门/" itemprop="url">
+                  Rxjava 2.x基础入门
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-04 09:14:15" itemprop="dateCreated datePublished" datetime="2018-07-04T09:14:15+08:00">2018-07-04</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 13:54:04" itemprop="dateModified" datetime="2019-08-15T13:54:04+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/android技术文档/" itemprop="url" rel="index"><span itemprop="name">android技术文档</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><ul>
+<li><p>提及Rxjava之前，了解下响应式编程，它的英文名，Reactive Programming，字面意思就是针对响应的。那什么是叫响应呢？（eg：门铃响了，你会起身去开门，这就是响应）<br>响应式它是依赖于事件的，响应式的代码它的运行不是按代码的顺序，而是跟多个按时间发生的事件有关。依赖事件？不就是“回调”？，but在响应式编程里，这些按时间排列的事件，被称为“流”，stream。没有流stream，就没有响应式编程。一句概括的话，响应式编程就是通过异步和数据流来构建事物关系的编程模型，就是编程处理异步数据流。</p>
+</li>
+<li><p>目前的情况，Android 的网络库基本被 Retrofit + OkHttp 一统天下了，而配合上响应式编程 RxJava 可谓如鱼得水。</p>
+</li>
+</ul>
+<h3 id="RxJava-是什么"><a href="#RxJava-是什么" class="headerlink" title="RxJava 是什么"></a>RxJava 是什么</h3><p><a href="https://github.com/ReactiveX/RxJava" target="_blank" rel="noopener"><strong>git地址</strong></a></p>
+<blockquote>
+<p><strong>RxJava</strong> is a Java VM implementation of Reactive Extensions: a library for composing <strong>asynchronous</strong> and <strong>event-based</strong> programs by using observable sequences. </p>
+</blockquote>
+<p> 它的本质可以压缩为异步。归根结底，它就是一个实现异步操作的库，加粗的部分都是修饰Rxjava。</p>
+<blockquote>
+<p>It extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.</p>
+</blockquote>
+<p> 它扩展了观察者模式支持的数据/事件序列,使用操作符来将这些数据/事件进行调整序列,不用担忧无关的抽象底层线程,同步,线程安全和并发数据结问题。</p>
+<h3 id="RxJava-优势"><a href="#RxJava-优势" class="headerlink" title="RxJava 优势"></a>RxJava 优势</h3><ul>
+<li>不用担忧无关的抽象底层线程,同步,线程安全和并发数据结问题。</li>
+<li>简洁</li>
+</ul>
+<p>异步操作很关键的一点是程序的简洁性，因为在调度过程比较复杂的情况下，异步代码经常会既难写也难被读懂。 Android sdk里面的 AsyncTask 和Handler ，其实都是为了让异步代码更加简洁。RxJava 的优势也是简洁，但它的简洁的与众不同之处在于，随着程序逻辑变得越来越复杂，它依然能够保持简洁。(code从上到下的链式调用，没有任何嵌套，逻辑清晰，可阅读性强)；</p>
+<p>代码示例：<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Observable obserInitSDK=Observable.create((context)-&gt;&#123;initDevUtils(context);&#125;).subscribeOn(Schedulers.newThread());</span><br><span class="line"></span><br><span class="line">Observable obserInitDB=Observable.create((context)-&gt;&#123;initDatabase(context);&#125;).subscribeOn(Schedulers.newThread());</span><br><span class="line"></span><br><span class="line">Observable observable = Observable.merge(obserInitSDK,obserInitDB);</span><br><span class="line"></span><br><span class="line">observable.subscribe(()-&gt;&#123;JumpToMain();&#125;);</span><br></pre></td></tr></table></figure></p>
+<p> 可以解决的问题：让复杂的程序逻辑回归简单、清晰。</p>
+<h3 id="API-简析"><a href="#API-简析" class="headerlink" title="API 简析"></a>API 简析</h3><p>上面实际已经提到 RxJava 的异步实现，是通过一种扩展的观察者模式来实现的。<br>  RxJava的被观察者为观察者模式添加两个功能。</p>
+<ul>
+<li>当不再产生数据时，生产者会通知消费者。（onComplete()）</li>
+<li>当发生错误时，生产者会通知消费者。（onError()）</li>
+</ul>
+<p>除此之外，RxJava的两点在于几行代码就可以变换，聚合，过滤被观察者发送的数据流，极大的减少需要维护的状态变量。<br>简单来说Rxjava原理就是使用”观察者模式+迭代器模式+函数式编程”，它扩展了观察者模式，通过使用可观察的对象序列流来表述一系列事件，订阅者进行占点观察并对序列流做出反应（或持久化或输出显示等等）；借鉴迭代器模式，对多个对象序列进行迭代输出，订阅者可以依次处理不同的对象序列；使用函数式编程思想，极大简化问题解决的步骤。</p>
+<blockquote>
+<p><strong>RxJava 有四个基本概念</strong>：</p>
+</blockquote>
+<ul>
+<li>Observable/Flowable (可观察者，即被观察者)</li>
+<li>Observer/Subscriber (观察者)</li>
+<li>subscribe (订阅),被观察者(Observable/Flowable) </li>
+<li>观察者(Observer/Subscriber) 通过 subscribe() 方法实现订阅关系<br>这样被观察者(Observable/Flowable) 可以在需要的时候发出事件来通知 观察者(Observer/Subscriber)。</li>
+</ul>
+<blockquote>
+<p><strong>所以使用RxJava 的三个步骤：</strong></p>
+</blockquote>
+<ul>
+<li><p>第一步：初始化 bservable/Flowable (可观察者，即被观察者)</p>
+</li>
+<li><p>第二部步：初始化 Observer/Subscriber (观察者)</p>
+</li>
+</ul>
+<ul>
+<li>第三步：建立订阅关系 </li>
+</ul>
+<p>代码示例：</p>
+<blockquote>
+<p><strong>创建观察者</strong></p>
+</blockquote>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"> Observer&lt;String&gt; observer = new Observer&lt;String&gt;() &#123;</span><br><span class="line"> 	@Override</span><br><span class="line">	public void onSubscribe(Disposable d) &#123;</span><br><span class="line">        //Disposable d可用来中止观察</span><br><span class="line">        d.dispose();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void onNext(String s) &#123;</span><br><span class="line">        Log.d(&quot;dale&quot;, &quot;Item: &quot; + s);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void onError(Throwable e) &#123;</span><br><span class="line">        Log.d(&quot;dale&quot;, &quot;onError!&quot;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    @Override</span><br><span class="line">    public void onComplete() &#123;</span><br><span class="line">        Log.d(&quot;dale&quot;, &quot;onComplete!&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>创建被观察者有很多种方法</strong> 具体参考 <a href="https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Merge.html" target="_blank" rel="noopener"><strong>Rxjava中文翻译文档</strong></a> <a href="http://reactivex.io/RxJava/2.x/javadoc/" target="_blank" rel="noopener"><strong>Rxjava文档</strong></a></p>
+</blockquote>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//被观察者 </span><br><span class="line">Observable observable = Observable.create(new ObservableOnSubscribe&lt;String&gt;() &#123;</span><br><span class="line">    @Override</span><br><span class="line">    public void subscribe(ObservableEmitter&lt;String&gt; e) throws Exception &#123;</span><br><span class="line">        e.onNext(&quot;send msg&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>将观察者连接到被观察者(订阅)：<br>被观察者是惰性的，在没有订阅者监听之前它不会做任何事情。</strong></p>
+</blockquote>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">observable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(observer);</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>操作符</strong></p>
+</blockquote>
+<p>Rxjava有很多实用的操作符，详细文档见中文翻译文档，也可以直接看官方文档。下面结合场景使用比较常用的几个操作符。<br><a href="http://reactivex.io/documentation/operators.html#alphabetical" target="_blank" rel="noopener"><strong>Rxjava官方wiki</strong></a></p>
+<ul>
+<li><p><strong>改变流：</strong><br>Filter：Filter运算符会过滤被观察者，被观察者发射的数据中只有通过你在谓词函数中指定的测试后才能继续往下流动。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">private ArrayList&lt;String&gt; originData = new ArrayList&lt;String&gt;() &#123;&#123;</span><br><span class="line">           add(&quot;11&quot;);</span><br><span class="line">           add(&quot;1111&quot;);</span><br><span class="line">       &#125;&#125;;</span><br><span class="line">       Observable.fromIterable(originData)</span><br><span class="line">               .filter(new Predicate&lt;String&gt;() &#123;</span><br><span class="line">                   @Override</span><br><span class="line">                   public boolean test(String item) throws Exception &#123;</span><br><span class="line">                       return item.length() &gt; 2;</span><br><span class="line">                   &#125;</span><br><span class="line">               &#125;).subscribe(new Consumer&lt;String&gt;() &#123;</span><br><span class="line">           @Override</span><br><span class="line">           public void accept(String dst) throws Exception &#123;</span><br><span class="line">               //过滤出符合自己要求的数据</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;);</span><br></pre></td></tr></table></figure>
+<p>上面的代码就是过滤出集合里字符串长度大于2的字符串。<br>应用场景，实际应用开发过滤数据还是很多的。</p>
+</li>
+<li><p><strong>转换流：</strong><br>map: 可以将一个 Observable 对象通过某种关系转换为另一个Observable 对象。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Flowable.just(&quot;xxxxxxx&quot;)</span><br><span class="line">               //这个第一个泛型为接收参数的数据类型，第二个泛型为转换后要发射的数据类型</span><br><span class="line">               .map(new Function&lt;String, String&gt;() &#123;</span><br><span class="line">                   @Override  </span><br><span class="line">                   public String apply(String s) throws Exception &#123;</span><br><span class="line">                       return s+&quot;__uuuuuuu&quot;;</span><br><span class="line">                   &#125;</span><br><span class="line">               &#125;)</span><br><span class="line">               .subscribe(new Consumer&lt;String&gt;() &#123;</span><br><span class="line">                   @Override</span><br><span class="line">                   public void accept(String s) throws Exception &#123;</span><br><span class="line">                       Log.e(&quot;consumer&quot;, s);</span><br><span class="line">                   &#125;</span><br><span class="line">               &#125;);</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>例子中map()将一个字符串对象，转换为另一个字符串对象返回，当然也可以将其转换为与之不同的对象，对应的返回的Flowable对象参数也会变为转换后的对象。另外Function的泛型第一个为接收参数的数据类型，第二个为转换后要发射的数据类型。<br>应用场景，map 操作符进行网络数据解析，数据库读取数据解析，改变数据对象属性 等等。</p>
+<p><strong>线程调度</strong></p>
+<blockquote>
+<p>线程调度器，方便更好的处理异步操作，在合适的场景选择合适的线程.</p>
+</blockquote>
+<p><strong>RxJava 中，已经内置了很多线程选项：</strong></p>
+<ul>
+<li>Schedulers.immediate(): 直接在当前线程运行，相当于不指定线程。这是默认的 Scheduler。</li>
+<li>Schedulers.newThread(): 总是启用新线程，并在新线程执行操作。</li>
+<li>Schedulers.io(): I/O 操作（读写文件、读写数据库、网络信息交互等）所使用的 Scheduler。行为模式和 newThread() 差不多，区别在于 io() 的内部实现是用一个无数量上限的线程池，可以重用空闲的线程，因此多数情况下 io() 比 newThread() 更有效率。不要把计算工作放在 io() 中，可以避免创建不必要的线程。</li>
+<li>Schedulers.computation(): 计算所使用的 Scheduler。这个计算指的是 CPU 密集型计算，即不会被 I/O 等操作限制性能的操作，例如图形的计算。这个 Scheduler 使用的固定的线程池，大小为 CPU 核数。不要把 I/O 操作放在 computation() 中，否则 I/O 操作的等待时间会浪费 CPU。</li>
+<li>AndroidSchedulers.mainThread(): Android 还专用的,它指定的操作将在 Android 主线程运行。</li>
+</ul>
+<p><strong>通过这几个 Scheduler ，就可以使用 subscribeOn() 和 observeOn() 两个方法来对线程进行控制了。</strong></p>
+<ul>
+<li>subscribeOn(): 指定Observable(被观察者)所在的线程，或者叫做事件产生的线程。 </li>
+<li>observeOn(): 指定 Observer(观察者)所运行在的线程，或者叫做事件消费的线程。</li>
+</ul>
+<h3 id="Flowabale的使用-以及RxJava-2-x中的backpressure的处理策略。"><a href="#Flowabale的使用-以及RxJava-2-x中的backpressure的处理策略。" class="headerlink" title="Flowabale的使用,以及RxJava 2.x中的backpressure的处理策略。"></a>Flowabale的使用,以及RxJava 2.x中的backpressure的处理策略。</h3><p><strong>Flowable的产生</strong><br>在RxJava中会经常遇到一种情况就是被观察者发送消息十分迅速以至于观察者不能及时的响应这些消息。<br>被观察者是事件的生产者，观察者是事件的消费者，比如生产者无限生成事件，而消费者每2秒才能消费一个事件，这会造成事件无限堆积，最后造成OOM。</p>
+<p>因此问题来了，怎么处理这些慢慢堆积起来的消息呢？<br>Flowable就是由此产生，专门用来处理这类问题。<br>关于上述的问题，有个专有的名词来形容上述现象，即：Backpressure(背压)。所谓背压，即生产者的速度大于消费者的速度带来的问题。</p>
+<p>Flowable是为了应对Backpressure而产生的。Flowable是一个被观察者，与Subscriber(观察者)配合使用，解决Backpressure问题。</p>
+<blockquote>
+<p>注意理解：处理Backpressure的策略仅仅是处理Subscriber接收事件的方式，并不影响Flowable发送事件的方法。即使采用了处理Backpressure的策略，Flowable原来以什么样的速度产生事件，现在还是什么样的速度不会变化，主要处理的是Subscriber接收事件的方式。</p>
+</blockquote>
+<p><strong>处理Backpressure的策略</strong><br>什么情况下才会产生Backpressure问题？</p>
+<ul>
+<li>如果生产者和消费者在一个线程的情况下，无论生产者的生产速度有多快，每生产一个事件都会通知消费者，等待消费者消费完毕，再生产下一个事件。所以在这种情况下，根本不存在Backpressure问题。即同步情况下，Backpressure问题不存在。</li>
+<li>如果生产者和消费者不在同一线程的情况下，如果生产者的速度大于消费者的速度，就会产生Backpressure问题。即异步情况下，Backpressure问题才会存在。</li>
+</ul>
+<p><strong>ERROR策略</strong><br>这种方式会产生背压的时候直接throw一个异常MissingBackpressureException.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">Flowable&lt;Integer&gt; flowable = Flowable.create(new FlowableOnSubscribe&lt;Integer&gt;() &#123;</span><br><span class="line">            @Override</span><br><span class="line">            public void subscribe(FlowableEmitter&lt;Integer&gt; emitter) throws Exception &#123;</span><br><span class="line">                Log.d(TAG, &quot;emit 1&quot;);</span><br><span class="line">                emitter.onNext(1);</span><br><span class="line">                Log.d(TAG, &quot;emit 2&quot;);</span><br><span class="line">                emitter.onNext(2);</span><br><span class="line">                Log.d(TAG, &quot;emit 3&quot;);</span><br><span class="line">                emitter.onNext(3);</span><br><span class="line">                Log.d(TAG, &quot;emit complete&quot;);</span><br><span class="line">                emitter.onComplete();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, BackpressureStrategy.ERROR); //增加了一个参数</span><br><span class="line"></span><br><span class="line">        Subscriber&lt;Integer&gt; subscriber = new Subscriber&lt;Integer&gt;() &#123;</span><br><span class="line">            @Override</span><br><span class="line">            public void onSubscribe(Subscription s) &#123;</span><br><span class="line">                Log.d(TAG, &quot;onSubscribe&quot;);</span><br><span class="line">                s.request(20);  //可以消费的事件数量</span><br><span class="line">            &#125;</span><br><span class="line">            @Override</span><br><span class="line">            public void onNext(Integer integer) &#123;</span><br><span class="line">                Log.d(TAG, &quot;onNext: &quot; + integer);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">            @Override</span><br><span class="line">            public void onError(Throwable t) &#123;</span><br><span class="line">                Log.w(TAG, &quot;onError: &quot;, t);</span><br><span class="line">            &#125;</span><br><span class="line">            @Override</span><br><span class="line">            public void onComplete() &#123;</span><br><span class="line">                Log.d(TAG, &quot;onComplete&quot;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;;</span><br><span class="line">        flowable.subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread()).subscribe(subscriber);</span><br></pre></td></tr></table></figure></p>
+<p>代码创建了一个Flowable(被观察者)和一个Subscriber(观察者)，不同的是 onSubscribe(Subscription s)中传给我们的不再是Disposable了, 而是Subscription。然而Subscription也可以用于切断观察者与被观察者之间的联系，调用Subscription.cancel()方法便可。 不同的地方在于Subscription增加了一个void request(long n)方法, 示例代码加入了s.request(20);  该方法就是用来向生产者申请可以消费的事件数量。这样我们便可以根据本身的消费能力进行消费事件。当调用了request()方法后，生产者便发送对应数量的事件供消费者消费。因为Flowable在设计的时候采用了一种新的思路也就是响应式拉取的方式,要求多少，给你多少。</p>
+<blockquote>
+<p>注意：如果不显示调用request就表示消费能力为0。</p>
+</blockquote>
+<p>虽然并不限制向request()方法中传入任意数字，但是如果消费者并没有这么多的消费能力，依旧会造成资源浪费，最后产生OOM。<br>所以<strong>ERROR策略</strong>就避免了这种情况的出现。<br>在异步调用时，RxJava中有个缓存池，用来缓存消费者处理不了暂时缓存下来的数据，缓存池的默认大小为128，即只能缓存128个事件。无论request()中传入的数字比128大或小，缓存池中在刚开始都会存入128个事件。当然如果本身并没有这么多事件需要发送，则不会存128个事件。<br>在ERROR策略下，如果缓存池溢出，就会立刻抛出MissingBackpressureException异常。ERROR即保证在异步操作中，事件累积不能超过128，超过即出现异常。消费者不能再接收事件了，但生产者并不会停止。</p>
+<p><strong>BUFFER策略</strong><br>所谓BUFFER就是把RxJava中默认的只能存128个事件的缓存池换成一个大的缓存池，支持存很多很多的数据。<br>这样，消费者通过request()即使传入一个很大的数字，生产者也会生产事件，并将处理不了的事件缓存。<br>但是这种方式任然比较消耗内存，除非是我们比较了解消费者的消费能力，能够把握具体情况，不会产生OOM。<br>总之BUFFER要慎用。</p>
+<p><strong>DROP策略</strong><br>当消费者处理不了事件，就丢弃。<br>消费者通过request()传入其需求n，然生产者把n个事件传递给消费者供其消费。其他消费不掉的事件就丢掉。</p>
+<p><strong>LATEST策略</strong><br>LATEST与DROP功能基本一致。<br>消费者通过request()传入其需求n，然后生产者把n个事件传递给消费者供其消费。其他消费不掉的事件就丢掉。<br>唯一的区别就是LATEST总能使消费者能够接收到生产者产生的最后一个事件。</p>
+<p>Flowable对象的获取通过create()方式，使用BackpressureStrategy.LATEST之类的方式指定处理背压的策略。如果Flowable对象不是自己创建的，可以采用onBackpressureBuffer()、onBackpressureDrop()、onBackpressureLatest()的方式指定。示例代码:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Flowable.just(1).onBackpressureBuffer()</span><br><span class="line">                .observeOn(AndroidSchedulers.mainThread())</span><br><span class="line">                .subscribeOn(Schedulers.io())</span><br><span class="line">                .subscribe(new Consumer&lt;Integer&gt;() &#123;</span><br><span class="line">                    @Override</span><br><span class="line">                    public void accept(Integer integer) throws Exception &#123;</span><br><span class="line">                        </span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;);</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://mcxiaoke.gitbooks.io/rxdocs/content/operators/Merge.html" target="_blank" rel="noopener"><strong>Rxjava中文翻译文档</strong></a><br><a href="https://github.com/ReactiveX/RxJava/wiki" target="_blank" rel="noopener"><strong>Rxjava文档</strong></a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/07/02/Android架构组件——ViewModel/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/02/Android架构组件——ViewModel/" itemprop="url">
+                  Android架构组件——ViewModel
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-02 10:16:01" itemprop="dateCreated datePublished" datetime="2018-07-02T10:16:01+08:00">2018-07-02</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 13:54:04" itemprop="dateModified" datetime="2019-08-15T13:54:04+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/android技术文档/" itemprop="url" rel="index"><span itemprop="name">android技术文档</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><p>Android 官方架构组件在2017年11月份Android官方架构组件正式版发布, 并且 Google 也在 Support Library v26.1.0 以后的版本中内嵌了 Android 官方架构组件中的生命周期组件.</p>
+<h3 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h3><blockquote>
+<p>ViewModel是UI相关数据管理类。但不是数据持有类<br>最为重要的就是ViewModel具有下面的生命周期：</p>
+</blockquote>
+<p><img src="/images/vm_lf.png" alt="Rvm_lf"></p>
+<p>上图是用Activity作为例子，左侧表示Activity的生命周期状态，右侧绿色部分表示ViewModel的生命周期范围。当屏幕旋转的时候，Activity会被recreate，Activity会经过几个生命周期方法，但是这个时候ViewModel还是之前的对象，并没有被重新创建，只有当Activity的finish()方法被调用时，ViewModel.onCleared()方法会被调用，对象才会被销毁。这张图很好的描述了是当Activity被recreate时，ViewModel的生命周期。<br>注意：<strong>在ViewModel中不要持有Activity的引用</strong>。从上面的图我们看到，当Activity被recreate时，ViewModel对象并没有被销毁，如果Model持有Activity的引用时就可能会导致内存泄漏。那如果你要使用到Context对象，建议使用ViewModel的子类AndroidViewModel或者你自己传入application的上下文。</p>
+<p><strong>正因为ViewModel有如此的生命周期，所以ViewModel在MVVM可以作为数据管理，是连接View和Model重要组件，ViewModel的核心作用如下图所示：</strong></p>
+<p><img src="/images/vm_fuc.png" alt="vm_fuc"></p>
+<h3 id="ViewModel简析"><a href="#ViewModel简析" class="headerlink" title="ViewModel简析"></a>ViewModel简析</h3><p>ViewModel的基本使用方法，我们在获取ViewModel的时候绝对不能直接使用new关键字去创建，需要使用 ViewModelProviders 去使用系统提供的反射方法去创建我们想要的ViewModel，下面是官方架构组件android.arch.lifecycle包下面的ViewModelProviders工具类用来获取ViewModel:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line">public class ViewModelProviders &#123;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 通过Activity获取可用的Application</span><br><span class="line">     * 或者检测Activity是否可用</span><br><span class="line">     * @param activity</span><br><span class="line">     * @return</span><br><span class="line">     */</span><br><span class="line">    private static Application checkApplication(Activity activity) &#123;</span><br><span class="line">        Application application = activity.getApplication();</span><br><span class="line">        if (application == null) &#123;</span><br><span class="line">            throw new IllegalStateException(&quot;Your activity/fragment is not yet attached to &quot;</span><br><span class="line">                    + &quot;Application. You can&apos;t request ViewModel before onCreate call.&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        return application;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 通过Fragment获取Activity</span><br><span class="line">     * 或者检测Fragment是否可用</span><br><span class="line">     * @param fragment</span><br><span class="line">     * @return</span><br><span class="line">     */</span><br><span class="line">    private static Activity checkActivity(Fragment fragment) &#123;</span><br><span class="line">        Activity activity = fragment.getActivity();</span><br><span class="line">        if (activity == null) &#123;</span><br><span class="line">            throw new IllegalStateException(&quot;Can&apos;t create ViewModelProvider for detached fragment&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        return activity;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 通过Fragment获得ViewModelProvider</span><br><span class="line">     * @param fragment</span><br><span class="line">     * @return</span><br><span class="line">     */</span><br><span class="line">    @NonNull</span><br><span class="line">    @MainThread</span><br><span class="line">    public static ViewModelProvider of(@NonNull Fragment fragment, @Nullable Factory factory) &#123;</span><br><span class="line">        Application application = checkApplication(checkActivity(fragment));</span><br><span class="line">        if (factory == null) &#123;</span><br><span class="line">        	/**获取默认的单例AndroidViewModelFactory，它内部是通过反射来创建具体的ViewModel*/</span><br><span class="line">            factory = ViewModelProvider.AndroidViewModelFactory.getInstance(application);</span><br><span class="line">        &#125;</span><br><span class="line">        /***</span><br><span class="line">         *   利用HolderFragment来关联生命周期并使用HolderFragment中的ViewModelStore的HashMap存储ViewModel</span><br><span class="line">         *   AndroidViewModelFactory创建ViewModel</span><br><span class="line">         */</span><br><span class="line">        return new ViewModelProvider(ViewModelStores.of(fragment), factory);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 通过FragmentActivity获得ViewModelProvider</span><br><span class="line">     * @param activity</span><br><span class="line">     * @return</span><br><span class="line">     */</span><br><span class="line">    @NonNull</span><br><span class="line">    @MainThread</span><br><span class="line">    public static ViewModelProvider of(@NonNull FragmentActivity activity,</span><br><span class="line">            @Nullable Factory factory) &#123;</span><br><span class="line">        Application application = checkApplication(activity);</span><br><span class="line">        /**获取默认的单例AndroidViewModelFactory，它内部是通过反射来创建具体的ViewModel*/</span><br><span class="line">        if (factory == null) &#123;</span><br><span class="line">            factory = ViewModelProvider.AndroidViewModelFactory.getInstance(application);</span><br><span class="line">        &#125;</span><br><span class="line">        /***</span><br><span class="line">         *   利用HolderFragment来关联生命周期并使用HolderFragment中的ViewModelStore的HashMap存储ViewModel</span><br><span class="line">         *   AndroidViewModelFactory创建ViewModel</span><br><span class="line">         */</span><br><span class="line">        return new ViewModelProvider(ViewModelStores.of(activity), factory);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="创建使用ViewModel"><a href="#创建使用ViewModel" class="headerlink" title="创建使用ViewModel"></a>创建使用ViewModel</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//传入对应的上下文 即：数据retain的宿主</span><br><span class="line">NetDemoViewModel  netDemoViewModel = ViewModelProviders.of(fragment/activity).get(NetDemoViewModel.class);</span><br></pre></td></tr></table></figure>
+<p>ViewModel 的存在是依赖 Activity 或者 Fragment的，不管你在什么地方获取ViewModel ，只要你用的是相同的Activity 或者 Fragment，那么获取到的ViewModel将是同一个 (前提是key值是一样的)，所以ViewModel 有数据共享的作用。</p>
+<h4 id="ViewModel是怎么创建的？"><a href="#ViewModel是怎么创建的？" class="headerlink" title="ViewModel是怎么创建的？"></a>ViewModel是怎么创建的？</h4><p>看上面的获取viewmodel的对象的链式调用的方法可以理解成 分为两步<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/*****第一步:根据Activity或者Fragment获得ViewModelProvider****/</span><br><span class="line">ViewModelProviders viewModelProvider = ViewModelProviders.of(fragment/activity);</span><br><span class="line">/*****第二步:使用ViewModelProvider反射创建需要的ViewModel****/</span><br><span class="line">NetDemoViewModel  netDemoViewModel = viewModelProvider.get(NetDemoViewModel.class);</span><br></pre></td></tr></table></figure></p>
+<p>第一步获得的源代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Creates a &#123;@link ViewModelProvider&#125;, which retains ViewModels while a scope of given</span><br><span class="line"> * &#123;@code fragment&#125; is alive. More detailed explanation is in &#123;@link ViewModel&#125;.</span><br><span class="line"> * &lt;p&gt;</span><br><span class="line"> * It uses the given &#123;@link Factory&#125; to instantiate new ViewModels.</span><br><span class="line"> *</span><br><span class="line"> * @param fragment a fragment, in whose scope ViewModels should be retained</span><br><span class="line"> * @param factory  a &#123;@code Factory&#125; to instantiate new ViewModels</span><br><span class="line"> * @return a ViewModelProvider instance</span><br><span class="line"> */</span><br><span class="line">@NonNull</span><br><span class="line">@MainThread</span><br><span class="line">public static ViewModelProvider of(@NonNull Fragment fragment, @Nullable Factory factory) &#123;</span><br><span class="line">    Application application = checkApplication(checkActivity(fragment));</span><br><span class="line">    if (factory == null) &#123;</span><br><span class="line">        /**********获得AndroidViewModelFactory ( 内部是单例的 )*******/</span><br><span class="line">        factory = ViewModelProvider.AndroidViewModelFactory.getInstance(application);</span><br><span class="line">    &#125;</span><br><span class="line">     /*****创建一个ViewModelProvider( 传入的两个参数是重点 )*****/</span><br><span class="line">    return new ViewModelProvider(ViewModelStores.of(fragment), factory);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>上面的两步，获得AndroidViewModelFactory ，AndroidViewModelFactory其实是ViewModelProvider的静态内部类，看调用方式就知道是一个单例的，就是应用里面只有一个单例的 AndroidViewModelFactory存在，看源码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line">public static class AndroidViewModelFactory extends ViewModelProvider.NewInstanceFactory &#123;</span><br><span class="line"></span><br><span class="line">       private static AndroidViewModelFactory sInstance;</span><br><span class="line"></span><br><span class="line">       /**</span><br><span class="line">        * Retrieve a singleton instance of AndroidViewModelFactory.</span><br><span class="line">        * 获得AndroidViewModelFactory 单例</span><br><span class="line">        * @param application an application to pass in &#123;@link AndroidViewModel&#125;</span><br><span class="line">        * @return A valid &#123;@link AndroidViewModelFactory&#125;</span><br><span class="line">        */</span><br><span class="line">       @NonNull</span><br><span class="line">       public static AndroidViewModelFactory getInstance(@NonNull Application application) &#123;</span><br><span class="line">           if (sInstance == null) &#123;</span><br><span class="line">               sInstance = new AndroidViewModelFactory(application);</span><br><span class="line">           &#125;</span><br><span class="line">           return sInstance;</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       private Application mApplication;</span><br><span class="line"></span><br><span class="line">       /**</span><br><span class="line">        * Creates a &#123;@code AndroidViewModelFactory&#125;</span><br><span class="line">        *</span><br><span class="line">        * @param application an application to pass in &#123;@link AndroidViewModel&#125;</span><br><span class="line">        */</span><br><span class="line">       public AndroidViewModelFactory(@NonNull Application application) &#123;</span><br><span class="line">           mApplication = application;</span><br><span class="line">       &#125;</span><br><span class="line">      /******其实这里就是创建ViewModel的关键地方，根据给出的Class反射创建需要的ViewModel*******/</span><br><span class="line">       @NonNull</span><br><span class="line">       @Override</span><br><span class="line">       public &lt;T extends ViewModel&gt; T create(@NonNull Class&lt;T&gt; modelClass) &#123;</span><br><span class="line">           if (AndroidViewModel.class.isAssignableFrom(modelClass)) &#123;</span><br><span class="line">               //noinspection TryWithIdenticalCatches</span><br><span class="line">               try &#123;</span><br><span class="line">                   return modelClass.getConstructor(Application.class).newInstance(mApplication);</span><br><span class="line">               &#125; catch (NoSuchMethodException e) &#123;</span><br><span class="line">                   throw new RuntimeException(&quot;Cannot create an instance of &quot; + modelClass, e);</span><br><span class="line">               &#125; catch (IllegalAccessException e) &#123;</span><br><span class="line">                   throw new RuntimeException(&quot;Cannot create an instance of &quot; + modelClass, e);</span><br><span class="line">               &#125; catch (InstantiationException e) &#123;</span><br><span class="line">                   throw new RuntimeException(&quot;Cannot create an instance of &quot; + modelClass, e);</span><br><span class="line">               &#125; catch (InvocationTargetException e) &#123;</span><br><span class="line">                   throw new RuntimeException(&quot;Cannot create an instance of &quot; + modelClass, e);</span><br><span class="line">               &#125;</span><br><span class="line">           &#125;</span><br><span class="line">           return super.create(modelClass);</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure></p>
+<p>看到这里,全局的AndroidViewModelFactory工具类，作用其实就是反射创建我们想要的类ViewModel。<br>获得到的单例AndroidViewModelFactory是创建ViewModelProvider的第二个参数。<br>第一个参数是这样的： ViewModelStores.of(activity)<br>看源码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">public class ViewModelStores &#123;</span><br><span class="line"></span><br><span class="line">    private ViewModelStores() &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * Returns the &#123;@link ViewModelStore&#125; of the given activity.</span><br><span class="line">     *</span><br><span class="line">     * @param activity an activity whose &#123;@code ViewModelStore&#125; is requested</span><br><span class="line">     * @return a &#123;@code ViewModelStore&#125;</span><br><span class="line">     */</span><br><span class="line">    @NonNull</span><br><span class="line">    @MainThread</span><br><span class="line">    public static ViewModelStore of(@NonNull FragmentActivity activity) &#123;</span><br><span class="line">    	//如果你的Activity实现了ViewModelStoreOwner接口具备了提供</span><br><span class="line">        //ViewModelStore 的功能就直接获取返回，通常我们的Activity都不会去实现这个功能</span><br><span class="line">        if (activity instanceof ViewModelStoreOwner) &#123;</span><br><span class="line">            return ((ViewModelStoreOwner) activity).getViewModelStore();</span><br><span class="line">        &#125;</span><br><span class="line">        //系统为你的Activity添加一个具有提供ViewModelStore 的holderFragment</span><br><span class="line">        return holderFragmentFor(activity).getViewModelStore();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>其实理解ViewModelStore就可以解释ViewModel的存储，理解了holderFragmentFor(activity).getViewModelStore() 就可解释ViewModel为什么可以在Activity配置发生变化的情况下人不销毁。<br>以上源码分析可以明白：</p>
+<ul>
+<li>AndroidViewModelFactory在正常情况下是全局单例只有一个，只是一个反射创建对象的工具类。 </li>
+<li>ViewModelProvider是每次获取创建ViewModel的时候都会创建一个新的。 </li>
+<li>ViewModelStore是每一个Activity或者Fragment都有一个。</li>
+</ul>
+<p>第二部分:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@MainThread</span><br><span class="line">public &lt;T extends ViewModel&gt; T get(@NonNull Class&lt;T&gt; modelClass) &#123;</span><br><span class="line">    String canonicalName = modelClass.getCanonicalName();</span><br><span class="line">    if (canonicalName == null) &#123;</span><br><span class="line">        throw new IllegalArgumentException(&quot;Local and anonymous classes can not be ViewModels&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">    return get(DEFAULT_KEY + &quot;:&quot; + canonicalName, modelClass);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>用 DEFAULT_KEY 和 类名组成一个key值去获取;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line">  * Returns an existing ViewModel or creates a new one in the scope (usually, a fragment or</span><br><span class="line">  * an activity), associated with this &#123;@code ViewModelProvider&#125;.</span><br><span class="line">  * &lt;p&gt;</span><br><span class="line">  * The created ViewModel is associated with the given scope and will be retained</span><br><span class="line">  * as long as the scope is alive (e.g. if it is an activity, until it is</span><br><span class="line">  * finished or process is killed).</span><br><span class="line">  *</span><br><span class="line">  * @param key        The key to use to identify the ViewModel.</span><br><span class="line">  * @param modelClass The class of the ViewModel to create an instance of it if it is not</span><br><span class="line">  *                   present.</span><br><span class="line">  * @param &lt;T&gt;        The type parameter for the ViewModel.</span><br><span class="line">  * @return A ViewModel that is an instance of the given type &#123;@code T&#125;.</span><br><span class="line">  */</span><br><span class="line"> @NonNull</span><br><span class="line"> @MainThread</span><br><span class="line"> public &lt;T extends ViewModel&gt; T get(@NonNull String key, @NonNull Class&lt;T&gt; modelClass) &#123;</span><br><span class="line">     ViewModel viewModel = mViewModelStore.get(key);</span><br><span class="line"></span><br><span class="line">     if (modelClass.isInstance(viewModel)) &#123;</span><br><span class="line">         //noinspection unchecked</span><br><span class="line">         return (T) viewModel;</span><br><span class="line">     &#125; else &#123;</span><br><span class="line">         //noinspection StatementWithEmptyBody</span><br><span class="line">         if (viewModel != null) &#123;</span><br><span class="line">             // TODO: log a warning.</span><br><span class="line">         &#125;</span><br><span class="line">     &#125;</span><br><span class="line"></span><br><span class="line">     viewModel = mFactory.create(modelClass);</span><br><span class="line">     mViewModelStore.put(key, viewModel);</span><br><span class="line">     //noinspection unchecked</span><br><span class="line">     return (T) viewModel;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<p>代码很简单，流程如下: </p>
+<ul>
+<li>先从mViewModelStore中使用key去获取ViewModel, mViewModelStore中是使用HashMap去存储一个Activity或者Fragment的ViewModel的。如果获取到就返回。 </li>
+<li>没获取到就使用单例mFactory的create方法反射创建ViewModel,create方法的代码在上面贴出来了。 </li>
+<li>使用Key存入mViewModelStore 并返回。</li>
+</ul>
+<p>也就是创建一个ViewModelProvider，使用ViewModelProvider内部的全局单例AndroidViewModelFactory来反射创建 ViewModel,并把创建的ViewModel存入传入的ViewModelStore中.</p>
+<h4 id="ViewModel是怎么存储"><a href="#ViewModel是怎么存储" class="headerlink" title="ViewModel是怎么存储"></a>ViewModel是怎么存储</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">public class ViewModelStore &#123;</span><br><span class="line"></span><br><span class="line">    private final HashMap&lt;String, ViewModel&gt; mMap = new HashMap&lt;&gt;();</span><br><span class="line"></span><br><span class="line">    final void put(String key, ViewModel viewModel) &#123;</span><br><span class="line">        ViewModel oldViewModel = mMap.put(key, viewModel);</span><br><span class="line">        if (oldViewModel != null) &#123;</span><br><span class="line">            oldViewModel.onCleared();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    final ViewModel get(String key) &#123;</span><br><span class="line">        return mMap.get(key);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     *  Clears internal storage and notifies ViewModels that they are no longer used.</span><br><span class="line">     */</span><br><span class="line">    public final void clear() &#123;</span><br><span class="line">        for (ViewModel vm : mMap.values()) &#123;</span><br><span class="line">            vm.onCleared();</span><br><span class="line">        &#125;</span><br><span class="line">        mMap.clear();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>就是一个 HashMap用存储ViewModel。提供get,put,clear三个方法。 ViewModelStore是每一个Activity或者Fragment都有一个的，当Activity或者Fragment销毁的时候就会调用clear方法了。</p>
+<p>通过上面看源码:</p>
+<p>ViewModelStore被谁创建，被谁持有？<br>被HolderFragment创建和持有！</p>
+<p>HolderFragment跟我们的Activity或者Fragment有什么关系？<br>当我们要给Activity或者Fragment创建ViewModel的时候，系统就会为Activity或者Fragment添加一个HolderFragment，HolderFragment中会创建持有一个ViewModelStore。</p>
+<p>HolderFragment怎么创建怎么被添加？<br>new ViewModelProvider(ViewModelStores.of(activity), factory);//上面有分析如何创建<br>为什么都添加一个HolderFragment？<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//HolderFragment架造</span><br><span class="line">public HolderFragment() &#123;</span><br><span class="line">     setRetainInstance(true);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>setRetainInstance(boolean) 是Fragment中的一个方法。将这个方法设置为true就可以使当前Fragment在Activity重建时存活下来, 如果不设置或者设置为 false, 当前 Fragment 会在 Activity 重建时同样发生重建, 以至于被新建的对象所替代。<br>在setRetainInstance(boolean)为true的 Fragment （就是HolderFragment）中放一个专门用于存储ViewModel的Map, 这样Map中所有的ViewModel都会幸免于Activity的配置改变导致的重建，让需要创建ViewModel的Activity, Fragment都绑定一个这样的Fragment（就是HolderFragment）, 将ViewModel存放到这个 Fragment 的 Map 中, ViewModel 组件就这样实现了。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p><strong>1.ViewModel 以键值对的形式存在Activity或者Fragment的HolderFragment的ViewModelStore的HashMap中。<br>2.一个Activity或者Fragment可以有很多个ViewModel。<br>3.一个Activity或者Fragment只会有一个HolderFragment。<br>4.Activity或者Fragment的HolderFragment会保存在全局单例的HolderFragmentManager的HashMap中，在Activity或者Fragment销毁的时候会移除HashMap中对应的value。<br>5.因为ViewModel是以Activity或者Fragment为存在基础，所以ViewModel可以在当前Activity和Fragment中实现数据共享，前提是传入相同的key值。<br>所以ViewModel 主要就两个功能</strong></p>
+<ul>
+<li>第一个功能可以使 ViewModel 以及 ViewModel 中的数据在屏幕旋转或配置更改引起的 Activity 重建时存活下来, 重建后数据可继续使用。</li>
+<li>第二个功能可以帮助开发者轻易实现 Fragment 与 Fragment 之间, Activity 与 Fragment 之间的通讯以及共享数据</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/06/14/RN-001/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/14/RN-001/" itemprop="url">
+                  ReactNative分享01
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-06-14 19:34:44" itemprop="dateCreated datePublished" datetime="2018-06-14T19:34:44+08:00">2018-06-14</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 13:54:04" itemprop="dateModified" datetime="2019-08-15T13:54:04+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/React-Native/" itemprop="url" rel="index"><span itemprop="name">React Native</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/images/RN_share_01.jpg" alt="RN_share_01_img"></p>
+<h3 id="哪些应用使用了RN"><a href="#哪些应用使用了RN" class="headerlink" title="哪些应用使用了RN"></a>哪些应用使用了RN</h3><p> <a href="https://facebook.github.io/react-native/showcase.html" target="_blank" rel="noopener">https://facebook.github.io/react-native/showcase.html</a></p>
+<h3 id="如何快速体验RN-App"><a href="#如何快速体验RN-App" class="headerlink" title="如何快速体验RN App"></a>如何快速体验RN App</h3><ul>
+<li>应用市场google play 、AppStore下载 ，推荐FaceBook F8大会App，搜索’F8’</li>
+<li>下载expo <a href="https://expo.io/" target="_blank" rel="noopener">https://expo.io/</a> (推荐Android平台)  ,(对expo的简单说明 <a href="https://zhuanlan.zhihu.com/p/27643105" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/27643105</a>)</li>
+<li>github下载demo运行或者按官方文档配置环境运行</li>
+</ul>
+<h3 id="入门资料"><a href="#入门资料" class="headerlink" title="入门资料"></a>入门资料</h3><ul>
+<li>官方文档 <a href="https://facebook.github.io/react-native/" target="_blank" rel="noopener">https://facebook.github.io/react-native/</a></li>
+<li>中文站  <a href="https://reactnative.cn/" target="_blank" rel="noopener">https://reactnative.cn/</a></li>
+<li>Youtube 搜索ReactNative</li>
+</ul>
+<h3 id="第三方组件推荐"><a href="#第三方组件推荐" class="headerlink" title="第三方组件推荐"></a>第三方组件推荐</h3><ul>
+<li>GitHub源码阅读chrome插件 ：Octotree    方便直接查看代码结构 </li>
+<li>搜索网站:   <a href="https://js.coach/" target="_blank" rel="noopener">https://js.coach/</a>    </li>
+<li><a href="https://github.com/jondot/awesome-react-native" target="_blank" rel="noopener">https://github.com/jondot/awesome-react-native</a>  </li>
+<li>…</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://t3team.github.io/2018/06/14/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="T3Team">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="T3Team's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/06/14/hello-world/" itemprop="url">
+                  如何写第一篇hexo博客
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-06-14 17:10:00" itemprop="dateCreated datePublished" datetime="2018-06-14T17:10:00+08:00">2018-06-14</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-15 13:54:04" itemprop="dateModified" datetime="2019-08-15T13:54:04+08:00">2019-08-15</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/教程-hexo/" itemprop="url" rel="index"><span itemprop="name">教程 - hexo</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/images/hello_hexo.jpg" alt="hello-hexo-header"></p>
+<p>在准备写博客之前可阅读一下简单教程</p>
+<h3 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h3><p> 本站博客使用hexo搭建，博客相关资源存在 <a href="https://github.com/T3Team/T3Team.github.io" target="_blank" rel="noopener">https://github.com/T3Team/T3Team.github.io</a> 上。</p>
+<ul>
+<li><p>hexo分支为默认分支，存放hexo网站资源</p>
+</li>
+<li><p>master分支存放静态文件</p>
+</li>
+</ul>
+<h3 id="初始化-恢复"><a href="#初始化-恢复" class="headerlink" title="初始化/恢复"></a>初始化/恢复</h3><p>重装电脑后，或者在其它电脑上想修改博客：</p>
+<ol>
+<li>安装 git；</li>
+<li>安装 Nodejs 和 npm；</li>
+<li>使用 <code>git clone git@github.com:T3Team/T3Team.github.io.git</code> 将仓库拷贝至本地；</li>
+<li>在文件夹内执行以下命令 <code>npm install hexo-cli -g</code>、<code>npm install</code>、<code>npm install hexo-deployer-git</code>。</li>
+<li>执行 hexo g 、hexo s 然后打开浏览器，输入地址<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> ,即可看到效果</li>
+</ol>
+<h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><h5 id="命令方式"><a href="#命令方式" class="headerlink" title="命令方式"></a>命令方式</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new test    //test为文章名</span><br></pre></td></tr></table></figure>
+<p>.md文件头部会自动生成如下内容</p>
+<ul>
+<li>title 文章标题</li>
+<li>date 文章创建时间</li>
+<li>author 作者，不填则显示默认值（本博客配置为T3team）</li>
+<li>tags 标签</li>
+<li>categories 文章分类</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: test</span><br><span class="line">date: 2018/6/14 17:10:00</span><br><span class="line">author: </span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>本文头部参数如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 如何写第一篇hexo博客</span><br><span class="line">date: 2018/6/14 17:10:00</span><br><span class="line">author: TFsky</span><br><span class="line">tags: </span><br><span class="line">	- hexo</span><br><span class="line">	- 教程</span><br><span class="line">categories: </span><br><span class="line">    - hexo </span><br><span class="line">    - 教程</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>此时会在<code>source/_posts</code>目录下生成<code>test.md</code>文件，输入些许内容，然后保存.</p>
+<p>生成下，看看效果</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<p>访问 <strong>localhost:4000</strong> 即可</p>
+<h5 id="直接方式"><a href="#直接方式" class="headerlink" title="直接方式"></a>直接方式</h5><p>在 <strong>source/_posts/</strong>下新建一个<code>.md</code>文件也可</p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><p>在本地对博客修改（包括修改主题样式、发布新文章等）后：</p>
+<ol>
+<li><p>依次执行 <code>git add</code>、<code>git commit -m &quot;xxxx&quot; (简单的描述下信息)</code> 和 <code>git push origin hexo</code> 来提交 hexo 网站源文件；</p>
+</li>
+<li><p>执行 <code>hexo g -d</code> 生成静态网页部署至 Github 上。</p>
+</li>
+</ol>
+<h3 id="相关参考文章"><a href="#相关参考文章" class="headerlink" title="相关参考文章:"></a>相关参考文章:</h3><ul>
+<li><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a></p>
+</li>
+<li><p><a href="https://github.com/limedroid/HexoLearning" target="_blank" rel="noopener">Hexo 博客搭建指南</a></p>
+</li>
+<li><p><a href="https://blog.itswincer.com/posts/7efd2818/" target="_blank" rel="noopener">Hexo博客备份</a>           </p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">T3Team</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/T3Team/T3Team.github.io" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">T3Team</span>
+
+  
+
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v3.9.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Mist</a> v6.3.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
